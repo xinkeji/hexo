@@ -132,7 +132,7 @@ exec ${HexoPath}/hexo.sh
 else
 if [ "$answer" = "9" ]; then
 printf "\033[32mINFO \033[0m 正在拉取语雀最新文章 ...\n"
-npm run local:yuque-token
+npm run local:yuque-pwd
 printf "\033[32mINFO \033[0m 语雀最新文章拉取完毕，您可以开始预览！\n"
 sleep 1s
 exec ${HexoPath}/hexo.sh
