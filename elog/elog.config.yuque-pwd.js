@@ -25,7 +25,7 @@ module.exports = {
   platform: 'github',
   github: {
     user: process.env.GITHUB_USER,
-    token: process.env.GITHUB_TOKEN,
+    token: process.env.GIT_TOKEN,
     repo: process.env.GITHUB_REPO,
     prefixKey: '',
     host: 'cdn.jsdelivr.net'
