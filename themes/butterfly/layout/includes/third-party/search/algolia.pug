@@ -1,0 +1,22 @@
+#algolia-search
+  .search-dialog
+    nav.search-nav
+      span.search-dialog-title= _p('search.title')
+      button.search-close-button
+        i.fa-solid.fa-times
+
+    .search-wrap
+      #algolia-search-input
+      hr
+      #algolia-search-results
+        #algolia-hits
+        #algolia-pagination
+        #algolia-info
+          .algolia-stats
+          .algolia-poweredBy(title='由 Algolia 提供搜索服务，点击可前往官网')
+  
+  #search-mask
+
+  script(src=url_for(theme.asset.algolia_search))
+  script(src=url_for(theme.asset.instantsearch))
+  script(src=url_for(theme.asset.algolia_js))
