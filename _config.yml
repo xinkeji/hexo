@@ -1,20 +1,20 @@
-title: CC的部落格
-subtitle: CC康纳百川
-description: CC的部落格，CC康纳百川的小窝，与你分享二三事
-keywords: CC的部落格,CC康纳百川,ccknbc,blog
-author: CC康纳百川
+title: 果粉部落
+subtitle: 果粉部落
+description: 果粉部落，只分享苹果教程
+keywords: 苹果教程
+author: naive
 language: zh-CN
 timezone: Asia/Shanghai
 
-url: https://blog.ccknbc.cc/
+url: https://g0f.cn/
 permalink: posts/:translate_title/
 permalink_defaults:
 pretty_urls:
   trailing_index: false
   trailing_html: false
 
-theme: butterfly
-# theme: anzhiyu
+#theme: butterfly
+ theme: anzhiyu
 
 source_dir: source
 public_dir: public
@@ -192,7 +192,7 @@ feed:
   content_limit: false
   content_limit_delim: " "
   order_by: -updated
-  icon: https://jsd.cdn.zzko.cn/gh/ccknbc-backup/cdn/logo/logo.png
+  icon: http://93665.xin/wp-content/uploads/2023/11/1701253193-3387-1.jpg
   autodiscovery: true
   template:
     - ./scaffolds/rss/atom.xml
@@ -229,8 +229,8 @@ nofollow:
   enable: true
   field: site
   exclude:
-    - "ccknbc.cc"
-    - "www.ccknbc.cc"
+    - "g0f.cn"
+    - "www.g0f.cn"
 
 mmedia:
   audio:
