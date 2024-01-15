@@ -21,7 +21,7 @@ module.exports = {
     }
   },
   image: {
-  enable: true,
+  enable: ture,
   platform: 'github',
   github: {
     user: process.env.GIT_USER,
