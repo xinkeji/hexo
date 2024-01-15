@@ -109,20 +109,20 @@ jobs:
           git branch -m master
           git commit -m "${{ github.event.head_commit.message }} $(date +"%Z %Y-%m-%d %A %H:%M:%S") Updated By GitHub Actions"
           git push --force --quiet "https://xinkeji:${{ secrets.GH_TOKEN }}@github.com/xinkeji/xinkeji.github.io.git" master:master
-          git push --force --quiet "https://ccknbc:${{ secrets.BB_TOKEN }}@bitbucket.org/ccknbc/ccknbc.bitbucket.io.git" master:master
-          git push --force --quiet "https://${{ secrets.CD_USER }}:${{ secrets.CD_TOKEN }}@e.coding.net/ccknbc/blog/butterfly.git" master:master
-          git push --force --quiet "https://ccknbc:${{ secrets.GT_TOKEN }}@gitee.com/ccknbc/ccknbc.git" master:master
+          # git push --force --quiet "https://ccknbc:${{ secrets.BB_TOKEN }}@bitbucket.org/ccknbc/ccknbc.bitbucket.io.git" master:master
+          # git push --force --quiet "https://${{ secrets.CD_USER }}:${{ secrets.CD_TOKEN }}@e.coding.net/ccknbc/blog/butterfly.git" master:master
+          # git push --force --quiet "https://ccknbc:${{ secrets.GT_TOKEN }}@gitee.com/ccknbc/ccknbc.git" master:master
 
-      - name: Update Gitee Pages
-        uses: yanglbme/gitee-pages-action@main
-        with:
-          gitee-username: ccknbc
-          gitee-password: ${{ secrets.GITEE_PASSWORD }}
-          gitee-repo: ccknbc/ccknbc
+      # - name: Update Gitee Pages
+      #   uses: yanglbme/gitee-pages-action@main
+      #   with:
+      #     gitee-username: ccknbc
+      #     gitee-password: ${{ secrets.GITEE_PASSWORD }}
+      #     gitee-repo: ccknbc/ccknbc
 
-      - name: Update GitLab Pages
-        run: |
-          curl -X POST --fail -F token=${{ secrets.GITLAB_TRIGGER_TOKEN }} -F ref=master https://gitlab.com/api/v4/projects/20691160/trigger/pipeline
+      # - name: Update GitLab Pages
+      #   run: |
+      #     curl -X POST --fail -F token=${{ secrets.GITLAB_TRIGGER_TOKEN }} -F ref=master https://gitlab.com/api/v4/projects/20691160/trigger/pipeline
 
       - name: Delete Workflow Runs
         uses: Mattraks/delete-workflow-runs@main
