@@ -6,7 +6,7 @@ author: CC康纳百川
 language: zh-CN
 timezone: Asia/Shanghai
 
-url: https://g0f.cn
+url: https://g0f.cn/
 permalink: posts/:translate_title/
 permalink_defaults:
 pretty_urls:
