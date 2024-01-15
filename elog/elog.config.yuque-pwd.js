@@ -29,6 +29,7 @@ module.exports = {
     repo: process.env.GITHUB_REPO,
     prefixKey: '',
     host: 'cdn.jsdelivr.net'
+  
     }
   },
 }
