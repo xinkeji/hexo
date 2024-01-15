@@ -6,15 +6,15 @@ author: CC康纳百川
 language: zh-CN
 timezone: Asia/Shanghai
 
-url: https://g0f.cn/
+url: https://blog.ccknbc.cc/
 permalink: posts/:translate_title/
 permalink_defaults:
 pretty_urls:
   trailing_index: false
   trailing_html: false
 
-#theme: butterfly
- theme: anzhiyu
+theme: butterfly
+# theme: anzhiyu
 
 source_dir: source
 public_dir: public
