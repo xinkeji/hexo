@@ -20,16 +20,15 @@ module.exports = {
       formatExt: "",
     }
   },
-  image: {
-  enable: ture,
-  platform: 'github',
-  github: {
-    user: process.env.GIT_USER,
-    token: process.env.GIT_TOKEN,
-    repo: process.env.GIT_REPO,
-    prefixKey: '',
-    host: 'cdn.jsdelivr.net'
-  
+ image: {
+    enabled: true,
+    platform: 'github',
+    github: {
+      user: process.env.GITHUB_USER,
+      token: process.env.GITHUB_TOKEN,
+      repo: process.env.GITHUB_REPO,
+      prefixKey: '',
+      host: 'cdn.jsdelivr.net'
     }
   },
 }
