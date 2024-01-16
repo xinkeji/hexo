@@ -155,7 +155,7 @@ favicon: /favicon.ico
 
 # Avatar (頭像)
 avatar:
-  img:https://s11.ax1x.com/2024/01/16/pFFiBnI.png
+  img: https://jsd.cdn.zzko.cn/gh/ccknbc-backup/cdn/logo/logo.png
   effect: false
 
 disable_top_img: false
