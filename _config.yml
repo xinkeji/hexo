@@ -220,7 +220,7 @@ algolia:
   totalPages: "1"
   per_page: "100"
   chunkSize: 5000
-  indexName: "ccknbc-blog"
+  indexName: "g0f-blog"
   fields:
     - title
     - content:strip
