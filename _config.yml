@@ -13,7 +13,8 @@ pretty_urls:
   trailing_index: false
   trailing_html: false
 
-theme: butterfly
+#theme: butterfly
+theme: next
  #theme: anzhiyu
 
 source_dir: source
