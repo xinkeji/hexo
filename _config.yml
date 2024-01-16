@@ -380,7 +380,7 @@ webpushr:
   #     webpushrAuthToken: ${{ secrets.WEBPUSHR_AUTH_TOKEN }}
   # 如果您的仓库私有，则无需担心此问题
 
-  trackingCode: "BB9Y-w9p3u0CKA7UP9nupB6I-_NqE2MuODmKJjyC4W2YflX06Ff_hEhrNJfonrut5l6gCa28gC83q2OII7Qv-oA"
+  trackingCode: "BO-SThKZ_pDGIAd_Odx49hQjFjki5-ifmrcVbIm6jBvcCNFq8IoywE7C1QMwY6_92AVGb-_LTB7kYSYuh6ybO0s"
   icon: "https://s11.ax1x.com/2024/01/16/pFFiBnI.png" # 必须为192*192 png图片
   # auto_hide: "0" # 默认为 1，代表true，即自动隐藏
   # sort: "date" # 默认为updated，即只要最新文章更改了更新时间即推送新文章，改为date即文章第一次发布时间
