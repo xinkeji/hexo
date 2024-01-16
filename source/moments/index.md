@@ -7,14 +7,14 @@ date: 2022-05-20 22:26:51
 updated: 2023-02-16 19:38:00
 translate_title: moments
 subtitle: Moments
-description: CC的部落格 朋友圈页面
+description: 果粉部落 朋友圈页面
 ---
 
 <div id="hexo-circle-of-friends-root"></div>
 <script>
     let UserConfig = {
         // 填写你的api地址
-        private_api_url: 'https://moments.ccknbc.cc/',
+        private_api_url: 'https://moments.g0f.cn/',
         // 初始加载几篇文章
         page_init_number: 20,
         // 点击加载更多时，一次最多加载几篇文章，默认10

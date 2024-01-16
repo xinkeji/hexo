@@ -127,7 +127,7 @@ self.addEventListener('fetch', event => {
 
 // 缓存名称
 workbox.core.setCacheNameDetails({
-    prefix: "CC的部落格",
+    prefix: "果粉部落",
     suffix: "缓存",
     precache: "预先",
     runtime: "运行时",
