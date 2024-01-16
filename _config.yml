@@ -390,7 +390,7 @@ webpushr:
     - title: 阅读全文 # 当 title 未配置时 默认值为 “前往查看”
       # url:  # 当 url 未配置时 默认值为 最新文章链接
     - title: 订阅页面
-      url: https://blog.ccknbc.cc/sub/
+      url: https://g0f.cn/sub/
     # 但 action_buttons 为未定义时也默认保留了一个按钮，即前往查看，除非设置为 false
     # action_buttons: false # 当设为 false 则不显示额外的按钮
 
