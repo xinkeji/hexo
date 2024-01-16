@@ -6,7 +6,7 @@ author: naive
 language: zh-CN
 timezone: Asia/Shanghai
 
-url: https://g0f.cn/
+url: https://github.g0f.cn/
 permalink: :year/:month/:day/:hash/
 permalink_defaults:
 pretty_urls:
