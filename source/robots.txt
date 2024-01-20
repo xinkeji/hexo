@@ -1,5 +1,5 @@
 User-agent: *
 Disallow: /categories/
 Disallow: /tags/
-Sitemap: https://g0f.cn/baidusitemap.xml
-Sitemap: https://g0f.cn/sitemap.xml
+Sitemap: https://blog.ccknbc.cc/baidusitemap.xml
+Sitemap: https://blog.ccknbc.cc/sitemap.xml

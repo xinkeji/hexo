@@ -1,6 +1,6 @@
 ---
 title: 关于本站
-description: 果粉部落 关于页面
+description: CC的部落格 关于页面
 top_img: false
 translate_title: about
 subtitle: About
@@ -9,7 +9,7 @@ updated: 2023-07-05 12:00:00
 ---
 ## 镜像站点
 
-{% note success flat %} 以下排名不分先后，请选择适合自己访问较快的即可</br> **[GitHub](https://github.g0f.cn) | [GitLab](https://gitlab.g0f.cn) | [Gitee](https://ccknbc.gitee.io) | [Bitbucket](https://ccknbc.bitbucket.io) | [Vercel](https://vercel.g0f.cn) | [Netlify](https://netlify.g0f.cn) | [CloudFlare](https://cloudflare.g0f.cn)** {% endnote %}
+{% note success flat %} 以下排名不分先后，请选择适合自己访问较快的即可</br> **[GitHub](https://github.blog.ccknbc.cc) | [GitLab](https://gitlab.blog.ccknbc.cc) | [Gitee](https://ccknbc.gitee.io) | [Bitbucket](https://ccknbc.bitbucket.io) | [Vercel](https://vercel.blog.ccknbc.cc) | [Netlify](https://netlify.blog.ccknbc.cc) | [CloudFlare](https://cloudflare.blog.ccknbc.cc)** {% endnote %}
 
 ## 站点源码
 

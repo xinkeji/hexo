@@ -21,7 +21,7 @@ menu:
     状态: https://cc.instatus.com || fa-solid fa-server
     # 遗嘱: /will/ || fa-solid fa-solid fa-file-pen
     # 自己: /me/ || far fa-user
-    # 证书: https://ssl.g0f.cn || fa-brands fa-expeditedssl
+    # 证书: https://ssl.ccknbc.cc || fa-brands fa-expeditedssl
 
 nav:
   logo: # image
@@ -53,11 +53,11 @@ copy:
 # formal:
 #   icon: link || the description || color
 social:
-  fa-brands fa-github: https://g0f.cn/ || GitHub
-  # fa-solid fa-envelope: mailto:status@g0f.cn?contenttype=text/html&subject=CC的状态监控故障反馈&body=请告知CC服务异常详情&inquiry=yes || Email
-  # fa-brands fa-bilibili: https://space.bilibili.com/1404413254 || BiliBili
-  # fa-brands fa-weibo: https://weibo.com/CommonCulture || Weibo
-  # fa-brands fa-telegram: https://t.me/ccknbc || Telegram
+  fa-brands fa-github: https://github.com/CCKNBC || GitHub
+  fa-solid fa-envelope: mailto:status@ccknbc.cc?contenttype=text/html&subject=CC的状态监控故障反馈&body=请告知CC服务异常详情&inquiry=yes || Email
+  fa-brands fa-bilibili: https://space.bilibili.com/1404413254 || BiliBili
+  fa-brands fa-weibo: https://weibo.com/CommonCulture || Weibo
+  fa-brands fa-telegram: https://t.me/ccknbc || Telegram
   # fa-brands fa-twitter: https://www.twitter.com/ccknbc || Twitter
   # fa-solid fa-bell faa-ring animated: /sub/ || Sub
   # fa-brands fa-line: https://line.me/ti/p/1vqM_WDef1 || LINE
@@ -79,7 +79,7 @@ docsearch:
   enable: true
   appId: 97MUPN4DMC
   apiKey: a003a39f337f5186ec11f5f92bae62b3
-  indexName: g0fcn
+  indexName: ccknbc
   option:
     placeholder: 'Ctrl/⌘ + K 唤醒搜索服务'
     maxResultsPerGroup: 7
@@ -234,7 +234,7 @@ post_head_ai_description:
   randomNum: 3 # 按钮最大的随机次数，也就是一篇文章最大随机出来几种
   basicWordCount: 1000 # 最低获取字符数, 最小1000, 最大1999
   key: VCtoijR43E2uiVWkrZiC
-  Referer: https://g0f.cn/
+  Referer: https://blog.ccknbc.cc/
 
 # wordcount (字數統計)
 wordcount:
@@ -273,9 +273,9 @@ toc:
 post_copyright:
   enable: true
   decode: false
-  author_href: https://g0f.cn/
-  license: g0fcn
-  license_url: hhttps://g0f.cn/
+  author_href: https://blog.ccknbc.cc/
+  license: CC BY-NC-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 # Sponsor/reward
 reward:
@@ -367,7 +367,7 @@ giscus:
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
 waline:
-  serverURL: https://waline.g0f.cn # Waline server address url
+  serverURL: https://waline.ccknbc.cc # Waline server address url
   bg: # waline background
   pageview: false
   meta_css: true
@@ -432,7 +432,7 @@ waline:
       ]
 
 discuss:
-  serverURLs: https://discuss.g0f.cn # Discuss server address url
+  serverURLs: https://discuss.ccknbc.cc # Discuss server address url
   options:
     master: "博主兼管理员" # 博主标签占位符，默认: 博主
     ph: "感谢各位的批评指正，期待与您交流！" # 评论框占位符，默认: 评论你的想法~
@@ -445,7 +445,7 @@ discuss:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://twikoo.g0f.cn #ccknbc-154167
+  envId: https://twikoo.ccknbc.cc #ccknbc-154167
   region:
   visitor: false
   option:
@@ -463,8 +463,8 @@ disqusjs:
   shortname: ccknbc
   apikey: Z6F8Gc9KvW2YCh6p11VRVNvMBYfdaKR3IMRFLVmoYaIQJ2ysp38fZ9tivPdgyBWu # emm，也不会有人想打DISQUS的注意吧
   option:
-    siteName: 果粉部落
-    api: https://disqusjs.g0f.cn/
+    siteName: CC的部落格
+    api: https://disqusjs.ccknbc.cc/
     nocomment: 这里冷冷清清的，快来留下脚印吧！
     admin: ccknbc
     adminLabel: 博主

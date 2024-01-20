@@ -7,11 +7,11 @@ updated: 2022-08-27 12:00:00
 translate_title: essay
 subtitle: Essay
 aside: false
-description: 果粉部落 即刻短文页面
+description: CC的部落格 即刻短文页面
 ---
 <div class="btn-center">
-{% btn 'https://ispeak-biubiu.g0f.cn',发表短文,fa-regular fa-message,outline green larger %}
-{% btn 'https://kkadmin.g0f.cn/#/ispeak/list',管理短文,fa-solid fa-user-pen,outline green larger %}
+{% btn 'https://ispeak-biubiu.ccknbc.cc',发表短文,fa-regular fa-message,outline green larger %}
+{% btn 'https://kkadmin.ccknbc.cc/#/ispeak/list',管理短文,fa-solid fa-user-pen,outline green larger %}
 </div>
 
 <div id="tip" style="text-align:center;">ipseak加载中</div>
@@ -46,7 +46,7 @@ description: 果粉部落 即刻短文页面
     ispeak
       .init({
         el: '#ispeak',
-        api: 'https://kkapi.g0f.cn/',
+        api: 'https://kkapi.ccknbc.cc/',
         author: '621cd42048c49d6f96787626',
         pageSize: 10,
         loading_img: 'https://bu.dusays.com/2022/05/01/626e88f349943.gif',
@@ -60,7 +60,7 @@ description: 果粉部落 即刻短文页面
             el: '.ispeak-comment', // 默认情况下 ipseak 生成class为 ispeak-comment 的div
             path: '/essay/speak?q=' + _id, // 手动传入当前speak的唯一id
             title: title || contentSub, // 手动传入当前speak的标题(由于content可能过长，因此截取前30个字符)
-            serverURL: 'https://waline.g0f.cn',
+            serverURL: 'https://waline.ccknbc.cc',
             pageSize: 10,
             requiredMeta: ["nick", "mail"],
             login: 'force',

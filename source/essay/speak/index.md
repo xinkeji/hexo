@@ -7,7 +7,7 @@ updated: 2022-08-27 12:00:00
 translate_title: speak
 subtitle: Speak
 aside: false
-description: 果粉部落 即刻短文页面
+description: CC的部落格 即刻短文页面
 ---
 <!-- CSS -->
 <link rel="stylesheet" href="https://jsd.cdn.zzko.cn/npm/@waline/client@v2/dist/waline.css"/>
@@ -16,7 +16,7 @@ description: 果粉部落 即刻短文页面
 <div class='content'>
   <img src='https://bu.dusays.com/2022/05/01/626e88f349943.gif'>
 </div>
-{% btn 'https://g0f.cn/essay/',查看全部,far fa-hand-point-right,block center blue larger %}
+{% btn 'https://blog.ccknbc.cc/essay/',查看全部,far fa-hand-point-right,block center blue larger %}
 <hr />
 <div class='ispeak-comment'></div>
 <!-- JS -->
@@ -27,7 +27,7 @@ description: 果粉部落 即刻短文页面
   const searchParams = new URLSearchParams(window.location.search);
   const speakId = searchParams.get('q');
   const path = window.location.pathname;
-  const apiURL = 'https://kkapi.g0f.cn/api/ispeak';
+  const apiURL = 'https://kkapi.ccknbc.cc/api/ispeak';
   const markedRender = (body, loading_img='https://bu.dusays.com/2022/05/01/626e88f349943.gif') => {
     const renderer = {
       image(href, title, text) {
@@ -72,9 +72,9 @@ description: 果粉部落 即刻短文页面
         el: '.ispeak-comment',
         path: path + '?q=' + speakId,
         pageTitle: title || contentSub,
-        site: '果粉部落 即刻短文',
+        site: 'CC的部落格 即刻短文',
         useBackendConf: true,
-        serverURL: 'https://waline.g0f.cn',
+        serverURL: 'https://waline.ccknbc.cc',
         pageSize: 10,
         requiredMeta: ["nick", "mail"],
         login: 'force',

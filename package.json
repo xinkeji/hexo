@@ -1,5 +1,5 @@
 {
-  "name": "g0f",
+  "name": "ccknbc-blog",
   "version": "latest",
   "private": false,
   "scripts": {
@@ -24,12 +24,11 @@
     "clean:flowus": "npx elog clean -c ./elog/elog.config.flowus.js -a ./elog/elog.cache.flowus.json"
   },
   "hexo": {
-    "version": "7.0.0-rc1"
+    "version": "7.0.0"
   },
   "dependencies": {
     "@elog/cli": "^0.13.0",
     "axios": "1.6.5",
-    "domexception": "^4.0.0",
     "hexo": "7.0.0",
     "hexo-butterfly-tag-plugins-plus": "1.0.17",
     "hexo-filter-nofollow": "2.0.2",
@@ -41,7 +40,6 @@
     "hexo-generator-sitemap": "3.0.1",
     "hexo-generator-tag": "2.0.0",
     "hexo-helper-qrcode": "1.0.2",
-    "hexo-migrator-wordpress": "^2.1.2",
     "hexo-renderer-markdown-it": "7.1.1",
     "hexo-renderer-pug": "3.0.0",
     "hexo-renderer-stylus": "3.0.0",
@@ -51,7 +49,6 @@
     "hexo-wordcount": "6.0.1",
     "hexo-yam": "8.0.0",
     "markdown-it-task-lists": "2.1.1",
-    "w3c-hr-time": "^1.0.2",
     "workbox-build": "7.0.0"
   }
 }
