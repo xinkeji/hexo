@@ -192,7 +192,7 @@ feed:
   content_limit: false
   content_limit_delim: " "
   order_by: -updated
-  icon: http://93665.xin/wp-content/uploads/2023/11/1701253193-3387-1.jpg
+  icon: https://jsd.cdn.zzko.cn/gh/g0fcn/img/logo.webp
   autodiscovery: true
   template:
     - ./scaffolds/rss/atom.xml
