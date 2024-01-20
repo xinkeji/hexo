@@ -19,8 +19,6 @@ updated: 2023-07-05 12:00:00
 {% endcodeblock %}
 
 {% raw %}
-```html
-
 <!DOCTYPE html>
 <html lang="zh-cn">
 	<head>
@@ -33,8 +31,7 @@ updated: 2023-07-05 12:00:00
 		<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js" type="text/javascript"></script>
 	</head>
 	<body>
-
-		<div class="container" style="padding-top:20px;">
+<div class="container" style="padding-top:20px;">
 			<div class="col-xs-12 col-sm-10 col-lg-8 center-block" style="float: none;">
 				<div class="panel panel-primary">
 					<div class="panel-heading" style="background: linear-gradient(to right,#8ae68a,#5ccdde,#b221ff);">
@@ -46,12 +43,11 @@ updated: 2023-07-05 12:00:00
 						<center>
 							<div class="alert alert-success">
 
-								<img class="img-circle"
+<img class="img-circle"
 									style="border: 2px solid #1281FF; margin-left:3px; margin-right:3px;"
 									src="http://q1.qlogo.cn/g?b=qq&nk=727338622&s=100" width="60px" height="60px" id="photo">
 								<br>
-
-							</div>
+</div>
 							<div class="alert alert-info" id="alias">战力小助手</div>
 						</center>
 						<div class="input-group">
@@ -86,8 +82,7 @@ updated: 2023-07-05 12:00:00
 					</p>
 				</center>
 			</div>
-
-			<script src="./js/mine.js" type="text/javascript"></script>
+<script src="./js/mine.js" type="text/javascript"></script>
 	</body>
 
 </html>
