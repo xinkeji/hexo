@@ -24,6 +24,7 @@ jobs:
       webpushrAuthToken: ${{ secrets.WEBPUSHR_AUTH_TOKEN }}
       LGH_USER: ${{ secrets.LGH_USER }}
       LGH_REPO: ${{ secrets.LGH_REPO }}
+      GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
     steps:
       - name: Checkout
