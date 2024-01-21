@@ -328,7 +328,7 @@ tag_plugins:
   priority: 5 #过滤器优先权
   issues: false #issues标签开关
   link:
-    placeholder: https://cdn.jsdelivr.net/gh/g0fcn/img/logo/logo.png #link_card标签默认的图标图片
+    placeholder: https://cdn.jsdelivr.net/gh/g0fcn/img/logo.webp #link_card标签默认的图标图片
   CDN:
     anima: https://cdn.jsdelivr.net/npm/hexo-butterfly-tag-plugins-plus/lib/assets/font-awesome-animation.min.css #动画标签anima的依赖
     # jquery: https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js #issues标签依赖
@@ -412,7 +412,7 @@ webpushr:
   # 当文章头设置 webpushr: false 时，可关闭本篇文章推送，此参数主要防止久远文章更新推送
 
 swpp:
-  enable: false
+  enable: true
 
 copyMarkdown:
     enable: true
