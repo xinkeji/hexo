@@ -234,7 +234,7 @@ post_head_ai_description:
   randomNum: 3 # 按钮最大的随机次数，也就是一篇文章最大随机出来几种
   basicWordCount: 1000 # 最低获取字符数, 最小1000, 最大1999
   key: VCtoijR43E2uiVWkrZiC
-  Referer: https://g0f.cn/
+  Referer: https://blog.ccknbc.cc/
 
 # wordcount (字數統計)
 wordcount:
@@ -273,7 +273,7 @@ toc:
 post_copyright:
   enable: true
   decode: false
-  author_href: https://g0f.cn/
+  author_href: https://blog.ccknbc.cc/
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
@@ -282,18 +282,10 @@ reward:
   enable: true
   text: 赞赏
   QR_code:
-<<<<<<< HEAD
     - img: https://cdn.jsdelivr.net/gh/g0fcn/img/logo/
       text: 三合一
     - img: https://cdn.jsdelivr.net/gh/g0fcn/img/logo/
       link: https://afdian.net/@ccknbc
-=======
-    - img: https://jsd.cdn.zzko.cn/gh/g0fcn/img/logo/
-      link: https://www.rocschool.com/
-      text: 三合一
-    - img: https://jsd.cdn.zzko.cn/gh/g0fcn/img/logo
-      link: https://afdian.net/
->>>>>>> 0a5b1270fe5ed6be6485ebab52b10c360080548b
       text: 爱发电
 
 # Easily browse and edit blog source code online.
