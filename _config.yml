@@ -11,7 +11,7 @@ permalink: :abbrlink.html
 permalink_defaults:
 pretty_urls:
   trailing_index: false
-  trailing_html: false
+  trailing_html: true
 
 theme: butterfly
  #theme: anzhiyu
