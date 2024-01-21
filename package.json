@@ -28,7 +28,6 @@
   },
   "dependencies": {
     "@elog/cli": "^0.13.0",
-    "@waline/hexo-next": "^3.0.1",
     "axios": "1.6.5",
     "hexo": "7.0.0",
     "hexo-abbrlink": "^2.2.1",
