@@ -367,7 +367,7 @@ giscus:
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
 waline:
-  serverURL: https://waline.ccknbc.cc # Waline server address url
+  serverURL: https://waline.g0f.cn # Waline server address url
   bg: # waline background
   pageview: false
   meta_css: true
@@ -432,9 +432,9 @@ waline:
       ]
 
 discuss:
-  serverURLs: https://discuss.ccknbc.cc # Discuss server address url
+  serverURLs: https://discuss.g0f.cn # Discuss server address url
   options:
-    master: "博主兼管理员" # 博主标签占位符，默认: 博主
+    master: "博主" # 博主标签占位符，默认: 博主
     ph: "感谢各位的批评指正，期待与您交流！" # 评论框占位符，默认: 评论你的想法~
     lang: "zh_CN" # 评论语言，默认: zh_CN ，可选: [zh_CN , en_US]
     # imgLoading:  # 评论图片懒加载，加载动画，默认为1像素白色base64图
@@ -445,7 +445,7 @@ discuss:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://twikoo.ccknbc.cc #ccknbc-154167
+  envId: https://twikoo.g0f.cn #ccknbc-154167
   region:
   visitor: false
   option:
@@ -453,18 +453,18 @@ twikoo:
 # disqus
 # https://disqus.com/
 disqus:
-  shortname: ccknbc
-  apikey: Z6F8Gc9KvW2YCh6p11VRVNvMBYfdaKR3IMRFLVmoYaIQJ2ysp38fZ9tivPdgyBWu # For newest comments widget
+  shortname: g0f
+  apikey: Z6F8Gc9KvW2YCh6p11VRVNvMBYfdaKR3IRFLVmoYaIQJ2ysp38fZ9tivPdgyBWu # For newest comments widget
 
 # Alternative Disqus - Render comments with Disqus API
 # DisqusJS 評論系統，可以實現在網路審查地區載入 Disqus 評論列表，兼容原版
 # https://github.com/SukkaW/DisqusJS
 disqusjs:
-  shortname: ccknbc
-  apikey: Z6F8Gc9KvW2YCh6p11VRVNvMBYfdaKR3IMRFLVmoYaIQJ2ysp38fZ9tivPdgyBWu # emm，也不会有人想打DISQUS的注意吧
+  shortname: g0f
+  apikey: Z6F8Gc9KvW2YCh6p11VRVNvMBYdaKR3IMRFLVmoYaIQJ2ysp38fZ9tivPdgyBWu # emm，也不会有人想打DISQUS的注意吧
   option:
-    siteName: CC的部落格
-    api: https://disqusjs.ccknbc.cc/
+    siteName: 果粉圈
+    api: https://disqusjs.g0f.cn/
     nocomment: 这里冷冷清清的，快来留下脚印吧！
     admin: ccknbc
     adminLabel: 博主
@@ -581,12 +581,12 @@ footer:
   custom_text: #<script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/JgUfbwUA5BsLeAIc/quote.js?theme=#EEEEEE,,#EEEEEE,#EEEEEE,,#EEEEEE,14&f=14&display=0,1,1,1,1,1,1,1"></script>
   copyright: false # Copyright of theme and framework
   ICP: # Chinese ICP License
-    enable: true
+    enable: false
     url: https://beian.miit.gov.cn
     text: 鄂 ICP 备 2020019764 号
     icon: https://jsd.cdn.zzko.cn/gh/ccknbc-backup/cdn/logo/icp.png
   gongan: # Chinese Gongan License
-    enable: true
+    enable: false
     url: https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=42088102000092
     text: 鄂公网安备 42088102000092 号
     icon: https://jsd.cdn.zzko.cn/gh/ccknbc-backup/cdn/logo/gongan.png
@@ -1006,7 +1006,7 @@ mermaid:
   enable: true
   # built-in themes: default/forest/dark/neutral
   theme:
-    light: default
+    light: 默认
     dark: dark
 
 # Note (Bootstrap Callout)
