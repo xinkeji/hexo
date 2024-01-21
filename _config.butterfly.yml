@@ -3,7 +3,7 @@
 # --------------------------------------
 
 menu:
-  # 首页: / || fa-solid fa-house-chimney
+    首页: / || fa-solid fa-house-chimney
   # 浏览: javascript:toRandomPost(); || fa-solid fa-shuffle
   文章 || fa-solid fa-book-reader:
     归档: /archives/ || fa-solid fa-box-archive
@@ -34,11 +34,11 @@ hide_sidebar_menu_child: false
 # Code Blocks (代碼相關)
 # --------------------------------------
 
-highlight_theme: mac light #  darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
-highlight_height_limit: 450 # unit: px
+highlight_height_limit: 250 # unit: px
 code_word_wrap: true
 
 # copy settings
@@ -272,10 +272,10 @@ reward:
   text: 赞赏
   QR_code:
     - img: https://cdn.jsdelivr.net/gh/g0fcn/img/logo/
-      text: 三合一
+      text: 微信
     - img: https://cdn.jsdelivr.net/gh/g0fcn/img/logo/
       link: https://afdian.net/@ccknbc
-      text: 爱发电
+      text: 支付宝
 
 # Easily browse and edit blog source code online.
 edit:
