@@ -7,7 +7,7 @@ language: zh-CN
 timezone: Asia/Shanghai
 
 url: https://g0f.cn/
-permalink: :year/:month/:day/:hash/
+permalink: posts/:abbrlink.html
 permalink_defaults:
 pretty_urls:
   trailing_index: false
@@ -24,6 +24,22 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+
+# hexo-abbrlink
+abbrlink:
+  alg: crc32      #支持crc16和crc32算法（默认crc16）
+  rep: hex        #支持dec和hex值（默认dec）
+  drafts: false   #(true)Process draft,(false)Do not process draft. false(default) 
+  # Generate categories from directory-tree
+  # depth: the max_depth of directory-tree you want to generate, should > 0
+  auto_category:
+     enable: true  #true(default)
+     depth:        #3(default)
+     over_write: false 
+  auto_title: false #enable auto title, it can auto fill the title by path
+  auto_date: false #enable auto date, it can auto fill the date by time today
+  force: false #enable force mode,in this mode, the plugin will ignore the cache, and calc the abbrlink for every post even it already had abbrlink.
+
 
 # Writing
 new_post_name: :title.md
