@@ -68,10 +68,7 @@ description:
 			</div>
 			<div class="col-xs-12 col-sm-10 col-lg-8 center-block" style="float: none;">
 				<div class="table-responsive" id="mydiv" style="text-align:center;"></div>
-				<center>
-					<p style="text-align:center"><br>&copy; Powered by <a href="https://www.sapi.run" target="_blank">萌控科技</a>
-					</p>
-				</center>
+				
 			</div>
 	</body>
 
