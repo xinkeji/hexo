@@ -18,7 +18,7 @@ theme: butterfly
 
 source_dir: source
 public_dir: public
-tag_dir: tags
+tag_dir: 标签
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
@@ -209,17 +209,17 @@ sitemap:
 
 search:
   path: search.json
-  field: all
+  field: 全部
   content: true
 
 algolia:
-  appId: "947RX7HP3E"
-  applicationID: "947RX7HP3E"
-  apiKey: "9114b3fa2a3307b2cc8eec7e3ae5a8ea"
+  appId: "NWLBXB1RFA"
+  applicationID: "NWLBXB1RFA"
+  apiKey: "94c3a9823bae81f7b3e6b6339d8a1b6d"
   totalPages: "1"
   per_page: "100"
   chunkSize: 5000
-  indexName: "ccknbc-blog"
+  indexName: "g0f"
   fields:
     - title
     - content:strip
