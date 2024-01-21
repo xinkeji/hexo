@@ -191,7 +191,7 @@ category_per_img:
 cover:
   # display the cover or not (是否顯示文章封面)
   index_enable: true
-  aside_enable: false
+  aside_enable: true
   archives_enable: true
   # the position of cover in home page (封面顯示的位置)
   # left/right/both
@@ -224,17 +224,6 @@ post_meta:
     tags: true # true or false 文章頁是否顯示標籤
     label: true # true or false 顯示描述性文字
 
-# 文章顶部ai摘要
-post_head_ai_description:
-  enable: true
-  gptName: CC
-  mode: tianli # 默认模式 可选值: tianli/local
-  switchBtn: true # 可以配置是否显示切换按钮 以切换tianli/local
-  btnLink: https://tianli-blog.club/tianligpt/
-  randomNum: 3 # 按钮最大的随机次数，也就是一篇文章最大随机出来几种
-  basicWordCount: 1000 # 最低获取字符数, 最小1000, 最大1999
-  key: VCtoijR43E2uiVWkrZiC
-  Referer: https://g0f.cn/
 
 # wordcount (字數統計)
 wordcount:
