@@ -16,7 +16,7 @@ description: CC的部落格 即刻短文页面
 <div class='content'>
   <img src='https://bu.dusays.com/2022/05/01/626e88f349943.gif'>
 </div>
-{% btn 'https://blog.ccknbc.cc/essay/',查看全部,far fa-hand-point-right,block center blue larger %}
+{% btn 'https://g0f.cn/essay/',查看全部,far fa-hand-point-right,block center blue larger %}
 <hr />
 <div class='ispeak-comment'></div>
 <!-- JS -->

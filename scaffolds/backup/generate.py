@@ -2,7 +2,7 @@ import re
 import urllib
 import requests
 
-sitemap = 'https://blog.ccknbc.cc/baidusitemap.xml'
+sitemap = 'https://g0f.cn/baidusitemap.xml'
 
 html = urllib.request.urlopen(sitemap).read().decode('utf-8')
 result = re.findall(re.compile(r'(?<=<loc>).*?(?=</loc>)'), html)
