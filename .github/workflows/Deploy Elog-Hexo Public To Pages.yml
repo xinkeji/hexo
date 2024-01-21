@@ -22,9 +22,9 @@ jobs:
       FLOWUS_TABLE_PAGE_ID: ${{ secrets.FLOWUS_TABLE_PAGE_ID }}
       webpushrKey: ${{ secrets.WEBPUSHR_KEY }}
       webpushrAuthToken: ${{ secrets.WEBPUSHR_AUTH_TOKEN }}
-      LGH_USER=g0fcn
-      LGH_TOKEN=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
-      LGH_REPO=img
+      LGH_USER=${{ secrets.LGH_USER }}
+      LGH_TOKEN=${{ secrets.LGH_TOKEN }}
+      LGH_REPO=${{ secrets.LGH_REPO }}
 
     steps:
       - name: Checkout
