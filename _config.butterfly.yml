@@ -77,9 +77,9 @@ algolia_search:
 # Docsearch
 docsearch:
   enable: true
-  appId: 97MUPN4DMC
-  apiKey: a003a39f337f5186ec11f5f92bae62b3
-  indexName: ccknbc
+  appId: 97MUPN4D
+  apiKey: a003a39f337f5186ec11f5f92bae62
+  indexName: g0f
   option:
     placeholder: 'Ctrl/⌘ + K 唤醒搜索服务'
     maxResultsPerGroup: 7
@@ -282,28 +282,36 @@ reward:
   enable: true
   text: 赞赏
   QR_code:
+<<<<<<< HEAD
     - img: https://cdn.jsdelivr.netgh/ccknbc-backup/cdn/logo/qr.png
       link: https://www.rocschool.com/tool/qr/qr/id/51.html
       text: 三合一
     - img: https://cdn.jsdelivr.netgh/ccknbc-backup/cdn/logo/afdian.png
       link: https://afdian.net/@ccknbc
+=======
+    - img: https://jsd.cdn.zzko.cn/gh/ccknbc-backup/cdn/logo/
+      link: https://www.rocschool.com/
+      text: 三合一
+    - img: https://jsd.cdn.zzko.cn/gh/ccknbc-backup/cdn/logo
+      link: https://afdian.net/
+>>>>>>> 0a5b1270fe5ed6be6485ebab52b10c360080548b
       text: 爱发电
 
 # Easily browse and edit blog source code online.
 edit:
   enable: true
-  yuque: https://www.yuque.com/ccknbc/blog/
+  yuque: https://www.yuque.com/
   # gitlab: false
   # gitlab_ide: false
-  github: https://github.com/ccknbc-actions/blog-butterfly/edit/
-  gitlab: https://gitlab.com/CCKNBC/ccknbc.gitlab.io/-/edit/
-  gitlab_ide: https://gitlab.com/-/ide/project/CCKNBC/ccknbc.gitlab.io/edit/
+  github: https://github.com/
+  gitlab: https://gitlab.com/
+  gitlab_ide: https://gitlab.com/
 
 # Related Articles
 related_post:
   enable: true
   limit: 6 # Number of posts displayed
-  date_type: created # or created or updated 文章日期顯示創建日或者更新日
+  date_type: 创建 # or created or updated 文章日期顯示創建日或者更新日
 
 # figcaption (圖片描述文字)
 photofigcaption: false
@@ -354,9 +362,9 @@ comments:
 # Giscus
 # https://giscus.app/
 giscus:
-  repo: ccknbc-backup/comments
-  repo_id: MDEwOlJlcG9zaXRvcnkzNTAyMjg5NTk=
-  category_id: DIC_kwDOFOAR384B-bwn
+  repo: xinkeji/xinkeji.github.io
+  repo_id: R_kgDOLGzSmA
+  category_id: DIC_kwDOLGzSmM4CckWw
   theme:
     light: light
     dark: dark
@@ -367,7 +375,7 @@ giscus:
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
 waline:
-  serverURL: https://waline.ccknbc.cc # Waline server address url
+  serverURL: https://waline.g0f.cn # Waline server address url
   bg: # waline background
   pageview: false
   meta_css: true
@@ -432,9 +440,9 @@ waline:
       ]
 
 discuss:
-  serverURLs: https://discuss.ccknbc.cc # Discuss server address url
+  serverURLs: https://discuss.g0f.cn # Discuss server address url
   options:
-    master: "博主兼管理员" # 博主标签占位符，默认: 博主
+    master: "博主" # 博主标签占位符，默认: 博主
     ph: "感谢各位的批评指正，期待与您交流！" # 评论框占位符，默认: 评论你的想法~
     lang: "zh_CN" # 评论语言，默认: zh_CN ，可选: [zh_CN , en_US]
     # imgLoading:  # 评论图片懒加载，加载动画，默认为1像素白色base64图
@@ -445,7 +453,7 @@ discuss:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://twikoo.ccknbc.cc #ccknbc-154167
+  envId: https://twikoo.g0f.cn #ccknbc-154167
   region:
   visitor: false
   option:
@@ -453,18 +461,18 @@ twikoo:
 # disqus
 # https://disqus.com/
 disqus:
-  shortname: ccknbc
-  apikey: Z6F8Gc9KvW2YCh6p11VRVNvMBYfdaKR3IMRFLVmoYaIQJ2ysp38fZ9tivPdgyBWu # For newest comments widget
+  shortname: g0f
+  apikey: Z6F8Gc9KvW2YCh6p11VRVNvMBYfdaKR3IRFLVmoYaIQJ2ysp38fZ9tivPdgyBWu # For newest comments widget
 
 # Alternative Disqus - Render comments with Disqus API
 # DisqusJS 評論系統，可以實現在網路審查地區載入 Disqus 評論列表，兼容原版
 # https://github.com/SukkaW/DisqusJS
 disqusjs:
-  shortname: ccknbc
-  apikey: Z6F8Gc9KvW2YCh6p11VRVNvMBYfdaKR3IMRFLVmoYaIQJ2ysp38fZ9tivPdgyBWu # emm，也不会有人想打DISQUS的注意吧
+  shortname: g0f
+  apikey: Z6F8Gc9KvW2YCh6p11VRVNvMBYdaKR3IMRFLVmoYaIQJ2ysp38fZ9tivPdgyBWu # emm，也不会有人想打DISQUS的注意吧
   option:
-    siteName: CC的部落格
-    api: https://disqusjs.ccknbc.cc/
+    siteName: 果粉圈
+    api: https://disqusjs.g0f.cn/
     nocomment: 这里冷冷清清的，快来留下脚印吧！
     admin: ccknbc
     adminLabel: 博主
@@ -581,12 +589,12 @@ footer:
   custom_text: #<script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/JgUfbwUA5BsLeAIc/quote.js?theme=#EEEEEE,,#EEEEEE,#EEEEEE,,#EEEEEE,14&f=14&display=0,1,1,1,1,1,1,1"></script>
   copyright: false # Copyright of theme and framework
   ICP: # Chinese ICP License
-    enable: true
+    enable: false
     url: https://beian.miit.gov.cn
     text: 鄂 ICP 备 2020019764 号
     icon: https://cdn.jsdelivr.netgh/ccknbc-backup/cdn/logo/icp.png
   gongan: # Chinese Gongan License
-    enable: true
+    enable: false
     url: https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=42088102000092
     text: 鄂公网安备 42088102000092 号
     icon: https://cdn.jsdelivr.netgh/ccknbc-backup/cdn/logo/gongan.png
@@ -1006,7 +1014,7 @@ mermaid:
   enable: true
   # built-in themes: default/forest/dark/neutral
   theme:
-    light: default
+    light: 默认
     dark: dark
 
 # Note (Bootstrap Callout)
