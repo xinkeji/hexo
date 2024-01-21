@@ -4,8 +4,7 @@
 
 menu:
  
-  首页: / || fa-solid fa-house-chimney
-  浏览: javascript:toRandomPost(); || fa-solid fa-shuffle
+首页: / || fa-solid fa-house-chimney
 文章 || fa-solid fa-book-reader:
   归档: /archives/ || fa-solid fa-box-archive
   标签: /tags/ || fa-solid fa-tags
