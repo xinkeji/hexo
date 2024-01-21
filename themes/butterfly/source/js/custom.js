@@ -1,4 +1,4 @@
-// C果粉圈 补充 JS
+// 果粉圈 补充 JS
 
 // 分享按钮
 document.addEventListener("DOMContentLoaded", () => {

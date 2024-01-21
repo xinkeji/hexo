@@ -1,6 +1,6 @@
 ---
 title: 音乐
-description: C果粉圈 音乐页面
+description: 果粉圈 音乐页面
 top_img: false
 aside: false
 comments: false
@@ -12,12 +12,12 @@ updated: 2023-06-09 23:13:42
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
 <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@xizeyoupan/meting/dist/Meting.min.js"></script>
-<script>var meting_api="https://meting.ccknbc.cc/api?server=:server&type=:type&id=:id&auth=:auth&r=:r"</script>
+<script>var meting_api="https://meting.g0f.cn/api?server=:server&type=:type&id=:id&auth=:auth&r=:r"</script>
 
 <!-- https://music.startly.cn/ 不支持 artist
 https://meting.yany.ml/api 不支持 qq音乐 音频
 https://geekswg-meting.geekswg.top/api 不支持 qq音乐
-https://meting.ccknbc.cc/api 支持 Netease, QQ, YouTube Music, Spotify -->
+https://meting.g0f.cn/api 支持 Netease, QQ, YouTube Music, Spotify -->
 
 {% folding green open, Three Man Down %}
 <!-- {% note green 'fa-solid fa-dice-three' simple %}Three Man Down × Tilly Birds{% endnote %} -->

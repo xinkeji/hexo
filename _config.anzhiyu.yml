@@ -397,7 +397,7 @@ valine:
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
 waline:
-  serverURL: https://waline.ccknbc.cc # Waline server address url
+  serverURL: https://waline.g0f.cn # Waline server address url
   bg: # waline background
   pageview: false
   meta: true

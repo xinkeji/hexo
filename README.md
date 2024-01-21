@@ -1,4 +1,4 @@
-## [C果粉圈](https://blog.ccknbc.cc)
+## [果粉圈](https://g0f.cn)
 
 
 
@@ -6,7 +6,7 @@
 
 以下排名不分先后，请选择适合自己访问较快的即可
 
-**[GitHub](https://github.blog.ccknbc.cc) | [GitLab](https://gitlab.blog.ccknbc.cc) | [Gitee](https://ccknbc.gitee.io) | [Bitbucket](https://ccknbc.bitbucket.io) | [Vercel](https://vercel.blog.ccknbc.cc) | [Netlify](https://netlify.blog.ccknbc.cc) | [CloudFlare](https://cloudflare.blog.ccknbc.cc)**
+**[GitHub](https://github.g0f.cn) | [GitLab](https://gitlab.g0f.cn) | [Gitee](https://ccknbc.gitee.io) | [Bitbucket](https://ccknbc.bitbucket.io) | [Vercel](https://vercel.g0f.cn) | [Netlify](https://netlify.g0f.cn) | [CloudFlare](https://cloudflare.g0f.cn)**
 
 ## 站点源码
 

@@ -7,7 +7,7 @@ updated: 2022-08-27 12:00:00
 translate_title: speak
 subtitle: Speak
 aside: false
-description: C果粉圈 即刻短文页面
+description: 果粉圈 即刻短文页面
 ---
 <!-- CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@waline/client@v2/dist/waline.css"/>
@@ -27,7 +27,7 @@ description: C果粉圈 即刻短文页面
   const searchParams = new URLSearchParams(window.location.search);
   const speakId = searchParams.get('q');
   const path = window.location.pathname;
-  const apiURL = 'https://kkapi.ccknbc.cc/api/ispeak';
+  const apiURL = 'https://kkapi.g0f.cn/api/ispeak';
   const markedRender = (body, loading_img='https://bu.dusays.com/2022/05/01/626e88f349943.gif') => {
     const renderer = {
       image(href, title, text) {
@@ -72,9 +72,9 @@ description: C果粉圈 即刻短文页面
         el: '.ispeak-comment',
         path: path + '?q=' + speakId,
         pageTitle: title || contentSub,
-        site: 'C果粉圈 即刻短文',
+        site: '果粉圈 即刻短文',
         useBackendConf: true,
-        serverURL: 'https://waline.ccknbc.cc',
+        serverURL: 'https://waline.g0f.cn',
         pageSize: 10,
         requiredMeta: ["nick", "mail"],
         login: 'force',
