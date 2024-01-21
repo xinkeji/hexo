@@ -18,24 +18,24 @@ description: CC的部落格 即刻短文页面
 <div id="ispeak"></div>
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.netnpm/highlight.js/styles/atom-one-dark.min.css"
+  href="https://cdn.jsdelivr.net/npm/highlight.js/styles/atom-one-dark.min.css"
 />
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.netnpm/ispeak/style.css"
+  href="https://cdn.jsdelivr.net/npm/ispeak/style.css"
 />
 
-<script src="https://cdn.jsdelivr.netnpm/highlight.js/highlight.min.js"></script>
-<script src="https://cdn.jsdelivr.netnpm/marked@v3/marked.min.js"></script>
-<script src="https://cdn.jsdelivr.netnpm/ispeak/ispeak.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/highlight.js/highlight.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked@v3/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/ispeak/ispeak.umd.js"></script>
 <!-- CSS -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.netnpm/@waline/client@v2/dist/waline.css"
+  href="https://cdn.jsdelivr.net/npm/@waline/client@v2/dist/waline.css"
 />
-<link rel="stylesheet" href="https://cdn.jsdelivr.netnpm/@waline/client@v2/dist/waline-meta.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@waline/client@v2/dist/waline-meta.css"/>
 <!-- JS -->
-<script src="https://cdn.jsdelivr.netnpm/@waline/client@v2/dist/waline.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@waline/client@v2/dist/waline.js"></script>
 <script>
   var head = document.getElementsByTagName('head')[0]
   var meta = document.createElement('meta')
@@ -84,9 +84,9 @@ description: CC的部落格 即刻短文页面
             turnstileKey: '0x4AAAAAAAECBl27OB5SZrQT',
             emoji:
               [
-                "https://cdn.jsdelivr.netnpm/sticker-heo/Sticker-100/",
-                // "https://cdn.jsdelivr.netnpm/telegram-gif/Telegram-Gif/",
-                // "https://cdn.jsdelivr.netnpm/@waline/emojis/tw-emoji/"
+                "https://cdn.jsdelivr.net/npm/sticker-heo/Sticker-100/",
+                // "https://cdn.jsdelivr.net/npm/telegram-gif/Telegram-Gif/",
+                // "https://cdn.jsdelivr.net/npm/@waline/emojis/tw-emoji/"
               ]
           })
         }

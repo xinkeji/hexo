@@ -190,7 +190,7 @@ favicon: /favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://cdn.chuqis.com/gh/ccknbc-backup/cdn/logo/logo.png
+  img: https://cdn.chuqis.com/gh/g0fcn/img/logo/logo.png
   effect: false
 
 # Disable all banner image
@@ -445,18 +445,18 @@ waline:
       level6: 开吃
     emoji:
       [
-        "https://cdn.jsdelivr.netnpm/sticker-heo/Sticker-100/",
-        # "https://cdn.jsdelivr.netnpm/telegram-gif/Telegram-Gif/",
-        # "https://cdn.jsdelivr.netnpm/@waline/emojis/tw-emoji/",
+        "https://cdn.jsdelivr.net/npm/sticker-heo/Sticker-100/",
+        # "https://cdn.jsdelivr.net/npm/telegram-gif/Telegram-Gif/",
+        # "https://cdn.jsdelivr.net/npm/@waline/emojis/tw-emoji/",
       ]
     reaction:
       [
-        "https://cdn.jsdelivr.netnpm/sticker-heo/Sticker-100/鼓掌.png",
-        "https://cdn.jsdelivr.netnpm/sticker-heo/Sticker-100/菜狗.png",
-        "https://cdn.jsdelivr.netnpm/sticker-heo/Sticker-100/正确.png",
-        "https://cdn.jsdelivr.netnpm/sticker-heo/Sticker-100/错误.png",
-        "https://cdn.jsdelivr.netnpm/sticker-heo/Sticker-100/思考.png",
-        "https://cdn.jsdelivr.netnpm/sticker-heo/Sticker-100/睡觉.png",
+        "https://cdn.jsdelivr.net/npm/sticker-heo/Sticker-100/鼓掌.png",
+        "https://cdn.jsdelivr.net/npm/sticker-heo/Sticker-100/菜狗.png",
+        "https://cdn.jsdelivr.net/npm/sticker-heo/Sticker-100/正确.png",
+        "https://cdn.jsdelivr.net/npm/sticker-heo/Sticker-100/错误.png",
+        "https://cdn.jsdelivr.net/npm/sticker-heo/Sticker-100/思考.png",
+        "https://cdn.jsdelivr.net/npm/sticker-heo/Sticker-100/睡觉.png",
       ]
 
 # Twikoo

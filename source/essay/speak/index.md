@@ -10,9 +10,9 @@ aside: false
 description: CC的部落格 即刻短文页面
 ---
 <!-- CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.netnpm/@waline/client@v2/dist/waline.css"/>
-<link rel="stylesheet" href="https://cdn.jsdelivr.netnpm/@waline/client@v2/dist/waline-meta.css"/>
-<link rel="stylesheet" href="https://cdn.jsdelivr.netnpm/highlight.js/styles/atom-one-dark.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@waline/client@v2/dist/waline.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@waline/client@v2/dist/waline-meta.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js/styles/atom-one-dark.min.css" />
 <div class='content'>
   <img src='https://bu.dusays.com/2022/05/01/626e88f349943.gif'>
 </div>
@@ -20,9 +20,9 @@ description: CC的部落格 即刻短文页面
 <hr />
 <div class='ispeak-comment'></div>
 <!-- JS -->
-<script src="https://cdn.jsdelivr.netnpm/@waline/client@v2/dist/waline.js"></script>
-<script src="https://cdn.jsdelivr.netnpm/marked/marked.min.js"></script>
-<script src="https://cdn.jsdelivr.netnpm/highlight.js/highlight.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@waline/client@v2/dist/waline.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/highlight.js/highlight.min.js"></script>
 <script>
   const searchParams = new URLSearchParams(window.location.search);
   const speakId = searchParams.get('q');
@@ -98,9 +98,9 @@ description: CC的部落格 即刻短文页面
         turnstileKey: '0x4AAAAAAAECBl27OB5SZrQT',
         emoji:
           [
-            "https://cdn.jsdelivr.netnpm/sticker-heo/Sticker-100/",
-            // "https://cdn.jsdelivr.netnpm/telegram-gif/Telegram-Gif/",
-            // "https://cdn.jsdelivr.netnpm/@waline/emojis/tw-emoji/"
+            "https://cdn.jsdelivr.net/npm/sticker-heo/Sticker-100/",
+            // "https://cdn.jsdelivr.net/npm/telegram-gif/Telegram-Gif/",
+            // "https://cdn.jsdelivr.net/npm/@waline/emojis/tw-emoji/"
           ]
       })
     }

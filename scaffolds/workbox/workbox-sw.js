@@ -1,4 +1,4 @@
-importScripts("https://cdn.jsdelivr.netnpm/workbox-sw/build/workbox-sw.js");
+importScripts("https://cdn.jsdelivr.net/npm/workbox-sw/build/workbox-sw.js");
 importScripts("https://cdn.webpushr.com/sw-server.min.js");
 
 // 提示
@@ -38,7 +38,7 @@ const fallbackCdnUrls = [
 
 // 定义失效CDN镜像的URL列表
 const invalidCdnUrls = [
-    'https://cdn.jsdelivr.net',
+    'https://cdn.jsdelivr.net/',
     'https://cdn1.tianli0.top',
 ];
 
