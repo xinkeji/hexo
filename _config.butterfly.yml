@@ -70,7 +70,7 @@ social:
 
 # Algolia search
 algolia_search:
-  enable: false
+  enable: true
   searchAsYouType: false
 
 # Docsearch
@@ -119,7 +119,7 @@ docsearch:
 
 # Local search
 local_search:
-  enable: true
+  enable: false
   # Preload the search data when the page loads.
   preload: false
   # Show top n results per article, show all results by setting to -1
