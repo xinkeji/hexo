@@ -4,7 +4,7 @@ bottom:
 #     name: Disqus 最新评论
 #     icon: fa-solid fa-comment
 #     order: 3
-#     html: <script src="https://ccknbc-disqus.ccknbc.workers.dev/recent_comments_widget.js?num_items=3&hide_avatars=1&avatar_size=48&excerpt_length=20&hide_mods=0"></script>
+#     html: <script src="https://ccknb#c-disqus.ccknbc.workers.dev/recent_comments_widget.js?num_items=3&hide_avatars=1&avatar_size=48&excerpt_length=20&hide_mods=0"></script>
 #   - class_name: weibo-container
 #     id_name:
 #     name: 微博热搜

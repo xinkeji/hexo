@@ -6,13 +6,13 @@
 	symlinks = false
 	ignorecase = true
 [remote "origin"]
-	url = git@github.com:ccknbc-actions/blog-butterfly.git
+	url = git@github.com:xinkeji/hexo.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
-	url = git@gitlab.com:ccknbc/ccknbc.gitlab.io.git
-	url = git@jihulab.com:ccknbc-backup/blog-butterfly.git
-	url = git@bitbucket.org:ccknbc/blog.git
-	url = git@e.coding.net:ccknbc/blog/blog-butterfly.git
-	url = git@gitee.com:ccknbc/blog-butterfly.git
+	url = git@gitlab.com:xinkeji/xinkeji.gitlab.io.git
+	url = git@jihulab.com:xinkeji/hexo.git
+	url = git@bitbucket.org:xinkeji/hexo.git
+	url = git@e.coding.net:xinkeji/hexo.git
+	url = git@gitee.com:xinkeji/hexo.git
 [branch "master"]
 	remote = origin
 	merge = refs/heads/master
