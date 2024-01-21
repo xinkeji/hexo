@@ -21,16 +21,15 @@ module.exports = {
     }
   },
   image: {
-    enable: false,
-    platform: 'cos',
-    cos: {
-      secretId: process.env.COS_SECRET_ID,
-      secretKey: process.env.COS_SECRET_KEY,
-      bucket: process.env.COS_IMAGE_BUCKET,
-      region: process.env.COS_IMAGE_REGION,
-      host: process.env.COS_HOST,
-      prefixKey: 'elog-docs-images',
-      secretExt: '', // 可选
+  enable: true,
+  platform: 'github',
+  github: {
+    user: process.env.LGH_USER,
+    token: process.env.LGH_TOKEN,
+    repo: process.env.LGH_REPO,
+    prefixKey: '',
+    host: 'cdn.jsdelivr.net'
+  
     }
   },
 }
