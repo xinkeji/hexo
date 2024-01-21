@@ -77,9 +77,9 @@ algolia_search:
 # Docsearch
 docsearch:
   enable: true
-  appId: 97MUPN4DMC
-  apiKey: a003a39f337f5186ec11f5f92bae62b3
-  indexName: ccknbc
+  appId: 97MUPN4D
+  apiKey: a003a39f337f5186ec11f5f92bae62
+  indexName: g0f
   option:
     placeholder: 'Ctrl/⌘ + K 唤醒搜索服务'
     maxResultsPerGroup: 7
@@ -282,28 +282,28 @@ reward:
   enable: true
   text: 赞赏
   QR_code:
-    - img: https://jsd.cdn.zzko.cn/gh/ccknbc-backup/cdn/logo/qr.png
-      link: https://www.rocschool.com/tool/qr/qr/id/51.html
+    - img: https://jsd.cdn.zzko.cn/gh/ccknbc-backup/cdn/logo/
+      link: https://www.rocschool.com/
       text: 三合一
-    - img: https://jsd.cdn.zzko.cn/gh/ccknbc-backup/cdn/logo/afdian.png
-      link: https://afdian.net/@ccknbc
+    - img: https://jsd.cdn.zzko.cn/gh/ccknbc-backup/cdn/logo
+      link: https://afdian.net/
       text: 爱发电
 
 # Easily browse and edit blog source code online.
 edit:
   enable: true
-  yuque: https://www.yuque.com/ccknbc/blog/
+  yuque: https://www.yuque.com/
   # gitlab: false
   # gitlab_ide: false
-  github: https://github.com/ccknbc-actions/blog-butterfly/edit/
-  gitlab: https://gitlab.com/CCKNBC/ccknbc.gitlab.io/-/edit/
-  gitlab_ide: https://gitlab.com/-/ide/project/CCKNBC/ccknbc.gitlab.io/edit/
+  github: https://github.com/
+  gitlab: https://gitlab.com/
+  gitlab_ide: https://gitlab.com/
 
 # Related Articles
 related_post:
   enable: true
   limit: 6 # Number of posts displayed
-  date_type: created # or created or updated 文章日期顯示創建日或者更新日
+  date_type: 创建 # or created or updated 文章日期顯示創建日或者更新日
 
 # figcaption (圖片描述文字)
 photofigcaption: false
@@ -354,9 +354,9 @@ comments:
 # Giscus
 # https://giscus.app/
 giscus:
-  repo: ccknbc-backup/comments
-  repo_id: MDEwOlJlcG9zaXRvcnkzNTAyMjg5NTk=
-  category_id: DIC_kwDOFOAR384B-bwn
+  repo: xinkeji/xinkeji.github.io
+  repo_id: R_kgDOLGzSmA
+  category_id: DIC_kwDOLGzSmM4CckWw
   theme:
     light: light
     dark: dark
