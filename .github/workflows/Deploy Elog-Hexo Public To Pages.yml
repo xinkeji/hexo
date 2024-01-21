@@ -23,7 +23,7 @@ jobs:
       webpushrKey: ${{ secrets.WEBPUSHR_KEY }}
       webpushrAuthToken: ${{ secrets.WEBPUSHR_AUTH_TOKEN }}
       LGH_USER: ${{ secrets.LGH_USER }}
-      LGH_TOKEN: ${{ secrets.LGH_TOKEN }}
+      LGH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       LGH_REPO: ${{ secrets.LGH_REPO }}
 
     steps:
