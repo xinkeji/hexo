@@ -17,7 +17,7 @@ updated: 2023-02-19 13:12:35
     <div id="webpushr-subscription-button" data-background-color="#8fbc8f" data-size="small" data-button-text="订阅更新/通知" data-subscriber-count-text="位用户已订阅"></div> 点击按钮修改您的订阅配置 <span id="webpushr-subscription-toggle-button" data-size="1.5" data-text-when-denied="请点击按钮允许 果粉圈 通知权限" data-color="#8fbc8f"></span>
 
 3. 邮件订阅（全文）
-跳转后通过{% btn 'https://follow.it/ccknbc?pub',Follow.it,fa-solid fa-paper-plane,outline green %}订阅，注册用户支持自定义关键词、标签及多渠道（例如Telegram, Twitter，将来会支持微信）通知。
+跳转后通过{% btn 'https://follow.it/g0f?pub',Follow.it,fa-solid fa-paper-plane,outline green %}订阅，注册用户支持自定义关键词、标签及多渠道（例如Telegram, Twitter，将来会支持微信）通知。
 
     未注册用户可在本页使用下表API订阅，但需要通过谷歌人机验证
     <div><form data-v-2bdb5506="" action="https://api.follow.it/subscription-form/YXJvK1pRMXFIbG1QZXEvUHRyUGR1L0xMYTN5V0FHSnhFY3pVeGRpUjV1bUNBbzRLd1hRbDcwTVk0bGlMQlAvOEtXaGU5RWxrTEtTOXBSSlBXWDNyeDZ5Uk1zU2JoRlpmNDh5em9FeG41SCt0WmtQWi9oTm5VZURNbTVOMENSc3h8a1hHYUtHTHV0QmhQZHAvZ3hkOW9zWnl4aE43SjBONDlUdG45YXRJM3JxQT0=/8" method="post"><div data-v-2bdb5506="" class="form-preview"><div data-v-2bdb5506="" class="preview-input-field"><input data-v-2bdb5506="" type="email" name="email" required="required" placeholder="输入您的电子邮件地址" spellcheck="false" mstplaceholder="39225030"></div> <div data-v-2bdb5506="" class="preview-submit-button"><button data-v-2bdb5506="" type="submit" >订阅</button></div></div></form></div>
