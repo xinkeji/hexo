@@ -1,5 +1,5 @@
 ---
-title: id
+title: 王者荣耀战力查询
 top_img: false
 comments: true
 aside: false
