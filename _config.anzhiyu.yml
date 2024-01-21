@@ -445,18 +445,18 @@ waline:
       level6: 开吃
     emoji:
       [
-        "https://jsd.cdn.zzko.cn/npm/sticker-heo/Sticker-100/",
-        # "https://jsd.cdn.zzko.cn/npm/telegram-gif/Telegram-Gif/",
-        # "https://jsd.cdn.zzko.cn/npm/@waline/emojis/tw-emoji/",
+        "https://cdn.jsdelivr.netnpm/sticker-heo/Sticker-100/",
+        # "https://cdn.jsdelivr.netnpm/telegram-gif/Telegram-Gif/",
+        # "https://cdn.jsdelivr.netnpm/@waline/emojis/tw-emoji/",
       ]
     reaction:
       [
-        "https://jsd.cdn.zzko.cn/npm/sticker-heo/Sticker-100/鼓掌.png",
-        "https://jsd.cdn.zzko.cn/npm/sticker-heo/Sticker-100/菜狗.png",
-        "https://jsd.cdn.zzko.cn/npm/sticker-heo/Sticker-100/正确.png",
-        "https://jsd.cdn.zzko.cn/npm/sticker-heo/Sticker-100/错误.png",
-        "https://jsd.cdn.zzko.cn/npm/sticker-heo/Sticker-100/思考.png",
-        "https://jsd.cdn.zzko.cn/npm/sticker-heo/Sticker-100/睡觉.png",
+        "https://cdn.jsdelivr.netnpm/sticker-heo/Sticker-100/鼓掌.png",
+        "https://cdn.jsdelivr.netnpm/sticker-heo/Sticker-100/菜狗.png",
+        "https://cdn.jsdelivr.netnpm/sticker-heo/Sticker-100/正确.png",
+        "https://cdn.jsdelivr.netnpm/sticker-heo/Sticker-100/错误.png",
+        "https://cdn.jsdelivr.netnpm/sticker-heo/Sticker-100/思考.png",
+        "https://cdn.jsdelivr.netnpm/sticker-heo/Sticker-100/睡觉.png",
       ]
 
 # Twikoo
