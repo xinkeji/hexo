@@ -22,6 +22,9 @@ jobs:
       FLOWUS_TABLE_PAGE_ID: ${{ secrets.FLOWUS_TABLE_PAGE_ID }}
       webpushrKey: ${{ secrets.WEBPUSHR_KEY }}
       webpushrAuthToken: ${{ secrets.WEBPUSHR_AUTH_TOKEN }}
+      GITHUB_USER=g0fcn
+      GITHUB_TOKEN=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
+      GITHUB_REPO=img
 
     steps:
       - name: Checkout
