@@ -115,10 +115,10 @@ xkFriend.init({
 
 主要信息
 ```yaml
-name: CC康纳百川
+name: 果粉圈
 link: https://g0f.cn
 avatar: https://cdn.jsdelivr.net/gh/g0fcn/img/logo/ccknbc.png
-descr: CC康纳百川的小窝
+descr: 果粉聚集之地
 ```
 选填信息
 ```yaml
@@ -141,7 +141,7 @@ screenshot: https://cdn.jsdelivr.net/gh/ccknbc-actions/blogroll@webp/g0f.cn.webp
 name: 果粉圈
 link: https://g0f.cn
 avatar: https://cdn.jsdelivr.net/gh/g0fcn/img/logo/ccknbc.png
-descr: CC康纳百川
+descr: 果粉聚集之地
 --primary-color: linear-gradient(0deg,#ffdee9 0,#b5fffc 100%)
 --namecolor: #8fbc8f
 --namecolorHover: #ffcc00
