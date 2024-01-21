@@ -74,7 +74,7 @@ algolia_search:
 
 # Docsearch
 docsearch:
-  enable: true
+  enable: false
   appId: 97MUPN4D
   apiKey: a003a39f337f5186ec11f5f92bae62
   indexName: g0f
@@ -118,7 +118,7 @@ docsearch:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
   # Preload the search data when the page loads.
   preload: false
   # Show top n results per article, show all results by setting to -1
@@ -431,7 +431,7 @@ discuss:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://twikoo.g0f.cn #ccknbc-154167
+  envId: https://twikoo.g0f.cn twikoo
   region:
   visitor: false
   option:
