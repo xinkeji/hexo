@@ -192,7 +192,7 @@ feed:
   content_limit: false
   content_limit_delim: " "
   order_by: -updated
-  icon: https://cdn.jsdelivr.netgh/g0fcn/img/logo.webp
+  icon: https://cdn.jsdelivr.net/gh/g0fcn/img/logo.webp
   autodiscovery: true
   template:
     - ./scaffolds/rss/atom.xml
@@ -240,33 +240,33 @@ mmedia:
     default:
       controls: true
   aplayer:
-    js: https://cdn.jsdelivr.netnpm/aplayer/dist/APlayer.min.js
-    css: https://cdn.jsdelivr.netnpm/aplayer/dist/APlayer.min.css
+    js: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js
+    css: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css
     default:
       contents:
         lrcType: 3
   meting:
-    js: https://cdn.jsdelivr.netnpm/meting/dist/Meting.min.js
+    js: https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js
     api: https://music.startly.cn/ # https://meting.ccknbc.cc/api （备用，支持 YouTube Spotify）
     default:
       theme: '#8fbc8f'
       list-folded: true
   dplayer:
-    js: https://cdn.jsdelivr.netnpm/dplayer/dist/DPlayer.min.js
-    hls_js: https://cdn.jsdelivr.netnpm/hls.js/dist/hls.min.js
-    dash_js: https://cdn.jsdelivr.netnpm/dashjs/dist/dash.all.min.js
-    shaka_dash_js: https://cdn.jsdelivr.netnpm/shaka-player/dist/shaka-player.compiled.js
-    flv_js: https://cdn.jsdelivr.netnpm/flv.js/dist/flv.min.js
-    webtorrent_js: https://cdn.jsdelivr.netnpm/webtorrent/webtorrent.min.js
+    js: https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.js
+    hls_js: https://cdn.jsdelivr.net/npm/hls.js/dist/hls.min.js
+    dash_js: https://cdn.jsdelivr.net/npm/dashjs/dist/dash.all.min.js
+    shaka_dash_js: https://cdn.jsdelivr.net/npm/shaka-player/dist/shaka-player.compiled.js
+    flv_js: https://cdn.jsdelivr.net/npm/flv.js/dist/flv.min.js
+    webtorrent_js: https://cdn.jsdelivr.net/npm/webtorrent/webtorrent.min.js
     default:
       contents:
   artplayer:
-    js: https://cdn.jsdelivr.netnpm/artplayer/dist/artplayer.js
-    hls_js: https://cdn.jsdelivr.netnpm/hls.js/dist/hls.min.js
-    dash_js: https://cdn.jsdelivr.netnpm/dashjs/dist/dash.all.min.js
-    shaka_dash_js: https://cdn.jsdelivr.netnpm/shaka-player/dist/shaka-player.compiled.js
-    flv_js: https://cdn.jsdelivr.netnpm/flv.js/dist/flv.min.js
-    webtorrent_js: https://cdn.jsdelivr.netnpm/webtorrent/webtorrent.min.js
+    js: https://cdn.jsdelivr.net/npm/artplayer/dist/artplayer.js
+    hls_js: https://cdn.jsdelivr.net/npm/hls.js/dist/hls.min.js
+    dash_js: https://cdn.jsdelivr.net/npm/dashjs/dist/dash.all.min.js
+    shaka_dash_js: https://cdn.jsdelivr.net/npm/shaka-player/dist/shaka-player.compiled.js
+    flv_js: https://cdn.jsdelivr.net/npm/flv.js/dist/flv.min.js
+    webtorrent_js: https://cdn.jsdelivr.net/npm/webtorrent/webtorrent.min.js
     default:
       style: width:344px;height:193.5px
       contents:
@@ -328,14 +328,14 @@ tag_plugins:
   priority: 5 #过滤器优先权
   issues: false #issues标签开关
   link:
-    placeholder: https://cdn.jsdelivr.netgh/ccknbc-backup/cdn/logo/logo.png #link_card标签默认的图标图片
+    placeholder: https://cdn.jsdelivr.net/gh/ccknbc-backup/cdn/logo/logo.png #link_card标签默认的图标图片
   CDN:
-    anima: https://cdn.jsdelivr.netnpm/hexo-butterfly-tag-plugins-plus/lib/assets/font-awesome-animation.min.css #动画标签anima的依赖
-    # jquery: https://cdn.jsdelivr.netnpm/jquery/dist/jquery.min.js #issues标签依赖
-    # issues: https://cdn.jsdelivr.netnpm/hexo-butterfly-tag-plugins-plus/lib/assets/issues.js #issues标签依赖
+    anima: https://cdn.jsdelivr.net/npm/hexo-butterfly-tag-plugins-plus/lib/assets/font-awesome-animation.min.css #动画标签anima的依赖
+    # jquery: https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js #issues标签依赖
+    # issues: https://cdn.jsdelivr.net/npm/hexo-butterfly-tag-plugins-plus/lib/assets/issues.js #issues标签依赖
     iconfont: false #参看https://akilar.top/posts/d2ebecef/
-    carousel: false #https://cdn.jsdelivr.netnpm/hexo-butterfly-tag-plugins-plus/lib/assets/carousel-touch.js
-    tag_plugins_css: https://cdn.jsdelivr.netnpm/hexo-butterfly-tag-plugins-plus/lib/tag_plugins.css
+    carousel: false #https://cdn.jsdelivr.net/npm/hexo-butterfly-tag-plugins-plus/lib/assets/carousel-touch.js
+    tag_plugins_css: https://cdn.jsdelivr.net/npm/hexo-butterfly-tag-plugins-plus/lib/tag_plugins.css
 
 wowjs:
   enable: false #控制动画开关。true是打开，false是关闭
@@ -381,7 +381,7 @@ webpushr:
 
 <<<<<<< HEAD
   trackingCode: "BB9Y-w9p3u0CKA7UP9nupB6I-_NqE2MuODmKJjyC4W2YflX06Ff_hEhrNJfonrut5l6gCa28gC83q2OII7Qv-oA"
-  icon: "https://cdn.jsdelivr.netgh/g0fcn/img/logo.webp" # 必须为192*192 png图片
+  icon: "https://cdn.jsdelivr.net/gh/g0fcn/img/logo.webp" # 必须为192*192 png图片
 =======
   trackingCode: "BO-SThKZ_pDGIAd_Odx49hQjFjki5-ifmrcVbIm6jBvcCNFq8IoywE7C1QMwY6_92AVGb-_LTB7kYSYuh6ybO0s"
   icon: "https://jsd.cdn.zzko.cn/gh/g0fcn/img/logo.webp" # 必须为192*192 png图片
