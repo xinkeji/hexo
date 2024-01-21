@@ -18,7 +18,7 @@ theme: butterfly
 
 source_dir: source
 public_dir: public
-tag_dir: 标签
+tag_dir: tag
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
