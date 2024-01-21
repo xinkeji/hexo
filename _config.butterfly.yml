@@ -3,25 +3,23 @@
 # --------------------------------------
 
 menu:
-    首页: / || fa-solid fa-house-chimney
-  # 浏览: javascript:toRandomPost(); || fa-solid fa-shuffle
-  文章 || fa-solid fa-book-reader:
-    归档: /archives/ || fa-solid fa-box-archive
-    标签: /tags/ || fa-solid fa-tags
-    分类: /categories/ || fa-solid fa-folder-open
-  社交 || fa-solid fa-cubes:
-    友链: /blogroll/ || fa-solid fa-link
-    友圈: /moments/ || fa-solid fa-blog
-    音乐: /music/ || fa-solid fa-music
-    短文: /essay/ || fa-solid fa-comment-alt
-  关于 || fa-solid fa-desktop:
-    订阅: /sub/ || fa-solid fa-bell
-    本站: /about/ || fa-solid fa-list-check
-    隐私: /privacy-policy/ || fa-solid fa-user-secret
-    # 状态: https://cc.instatus.com || fa-solid fa-server
-    # 遗嘱: /will/ || fa-solid fa-solid fa-file-pen
-    # 自己: /me/ || far fa-user
-    # 证书: https://ssl.g0f.cn || fa-brands fa-expeditedssl
+首页: / || fa-solid fa-house-chimney
+浏览: javascript:toRandomPost(); || fa-solid fa-shuffle
+文章 || fa-solid fa-book-reader:
+  归档: /archives/ || fa-solid fa-box-archive
+  标签: /tags/ || fa-solid fa-tags
+  分类: /categories/ || fa-solid fa-folder-open
+社交 || fa-solid fa-cubes:
+  友链: /blogroll/ || fa-solid fa-link
+  友圈: /moments/ || fa-solid fa-blog
+  音乐: /music/ || fa-solid fa-music
+  短文: /essay/ || fa-solid fa-comment-alt
+关于 || fa-solid fa-desktop:
+  订阅: /sub/ || fa-solid fa-bell
+  本站: /about/ || fa-solid fa-list-check
+  隐私: /privacy-policy/ || fa-solid fa-user-secret
+  状态: https://cc#instatus.com || fa-regular fa-server
+
 
 nav:
   logo: # image
@@ -162,7 +160,7 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: 
+index_img: transparent
 
 # If the banner of page not setting, it will show the top_img
 default_top_img:
@@ -694,15 +692,15 @@ text_align_justify: true
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(https://xxxxxx.com/xxx.jpg)
-background: "linear-gradient(45deg,#fff1eb,#ace0f9)"
+background: url(https://example.com/img/background.jpg)
 
 # Footer Background
-footer_bg: "linear-gradient(135deg,#fff1eb,#ace0f9)"
+footer_bg: "transparent"
 
 # Add mask to header or footer (为 header 或 footer 添加黑色半透遮罩)
 mask:
-  header: true
-  footer: true
+  header: false
+  footer: false
 
 # the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
 rightside_bottom:
@@ -1091,6 +1089,7 @@ css_prefix: true
 inject:
   head:
     - <script>if('serviceWorker'in navigator){navigator.serviceWorker.register("/sw.js",{scope:"/"}).then(reg=>{reg.onupdatefound=()=>{const installingWorker=reg.installing;installingWorker.onstatechange=()=>{if(installingWorker.state==='installed'){if(navigator.serviceWorker.controller){const isSnackbar=GLOBAL_CONFIG.Snackbar!==undefined;isSnackbar&&btf.snackbarShow("已刷新缓存，更新为最新内容");navigator.serviceWorker.controller.postMessage({type:"skipWaiting"})}else{console.log("第一次注册Service Worker")}}}}});navigator.serviceWorker.addEventListener("message",event=>{if(event.data&&event.data.type==="refresh"){console.log("收到刷新页面请求，开始刷新页面");window.location.reload()}})}</script>
+    - <link rel="stylesheet" href="/css/modify.css">
     # - "<script>if(!!navigator.serviceWorker){navigator.serviceWorker.register('/cw.js?t='+new Date().getTime()).then(async(registration)=>{if(localStorage.getItem('cw_installed')!=='true'){const conf=()=>{console.log('[CW] Installing Success,Configuring...');fetch('/cw-cgi/api?type=config').then(res=>res.text()).then(text=>{if(text==='ok'){console.log('[CW] Installing Success,Configuring Success,Starting...');localStorage.setItem('cw_installed','true');fetch(window.location.href).then(res=>res.text()).then(text=>{document.open()document.write(text);document.close()})}else{console.log('[CW] Installing Success,Configuring Failed,Sleeping 200ms...');setTimeout(()=>{conf()},200)}}).catch(err=>{console.log('[CW] Installing Success,Configuring Error,Exiting...')})}setTimeout(()=>{conf()},50)}}).catch(err=>{console.error('[CW] Installing Failed,Error: '+err.message)})}else{console.error('[CW] Installing Failed,Error: Browser not support service worker')}</>"
     # - <style type="text/css">.app-refresh{position:fixed;top:-2.2rem;left:0;right:0;z-index:99999;padding:0 1rem;font-size:15px;height:2.2rem;transition:all .3s ease}.app-refresh-wrap{display:flex;color:#fff;height:100%;align-items:center;justify-content:center}.app-refresh-wrap a{color:#fff;text-decoration:underline;cursor:pointer}</style>
   bottom:

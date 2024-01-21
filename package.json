@@ -29,6 +29,7 @@
   "dependencies": {
     "@elog/cli": "^0.13.0",
     "axios": "1.6.5",
+    "cheerio": "^1.0.0-rc.12",
     "hexo": "7.0.0",
     "hexo-abbrlink": "^2.2.1",
     "hexo-butterfly-tag-plugins-plus": "1.0.17",
