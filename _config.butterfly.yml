@@ -3,22 +3,21 @@
 # --------------------------------------
 
 menu:
- 
-首页: / || fa-solid fa-house-chimney
-文章 || fa-solid fa-book-reader:
-  归档: /archives/ || fa-solid fa-box-archive
-  标签: /tags/ || fa-solid fa-tags
-  分类: /categories/ || fa-solid fa-folder-open
-社交 || fa-solid fa-cubes:
-  友链: /blogroll/ || fa-solid fa-link
-  友圈: /moments/ || fa-solid fa-blog
-  音乐: /music/ || fa-solid fa-music
-  短文: /essay/ || fa-solid fa-comment-alt
-关于 || fa-solid fa-desktop:
-  订阅: /sub/ || fa-solid fa-bell
-  本站: /about/ || fa-solid fa-list-check
-  隐私: /privacy-policy/ || fa-solid fa-user-secret
-  状态: https://cc#instatus.com || fa-regular fa-server
+    首页: / || fa-solid fa-house-chimney
+  # 浏览: javascript:toRandomPost(); || fa-solid fa-shuffle
+  文章 || fa-solid fa-book-reader:
+    归档: /archives/ || fa-solid fa-box-archive
+    标签: /tags/ || fa-solid fa-tags
+    分类: /categories/ || fa-solid fa-folder-open
+  社交 || fa-solid fa-cubes:
+    友链: /blogroll/ || fa-solid fa-link
+    友圈: /moments/ || fa-solid fa-blog
+    音乐: /music/ || fa-solid fa-music
+    短文: /essay/ || fa-solid fa-comment-alt
+  关于 || fa-solid fa-desktop:
+    订阅: /sub/ || fa-solid fa-bell
+    本站: /about/ || fa-solid fa-list-check
+    隐私: /privacy-policy/ || fa-solid fa-user-secret
 
 
 nav:
