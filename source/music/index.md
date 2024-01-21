@@ -1,6 +1,6 @@
 ---
 title: 音乐
-description: CC的部落格 音乐页面
+description: C果粉圈 音乐页面
 top_img: false
 aside: false
 comments: false

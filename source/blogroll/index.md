@@ -1,6 +1,6 @@
 ---
 title: CC的小伙伴们
-description: CC的部落格 友情链接页面
+description: C果粉圈 友情链接页面
 type: link
 aside: false
 top_img: false
@@ -41,7 +41,7 @@ xkFriend.init({
     <p>
         <label class="checkbox">
             <input type="checkbox" id="checkbox1" onclick="checkForm()">
-            我已添加  <b>CC的部落格</b>的友情链接
+            我已添加  <b>C果粉圈</b>的友情链接
         </label>
     </p>
     <p>
@@ -138,7 +138,7 @@ screenshot: https://cdn.jsdelivr.net/gh/ccknbc-actions/blogroll@webp/blog.ccknbc
 ```
 完整信息
 ```yaml
-name: CC的部落格
+name: C果粉圈
 link: https://blog.ccknbc.cc
 avatar: https://cdn.jsdelivr.net/gh/g0fcn/img/logo/ccknbc.png
 descr: CC康纳百川

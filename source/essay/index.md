@@ -7,7 +7,7 @@ updated: 2022-08-27 12:00:00
 translate_title: essay
 subtitle: Essay
 aside: false
-description: CC的部落格 即刻短文页面
+description: C果粉圈 即刻短文页面
 ---
 <div class="btn-center">
 {% btn 'https://ispeak-biubiu.ccknbc.cc',发表短文,fa-regular fa-message,outline green larger %}

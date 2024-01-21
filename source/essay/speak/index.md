@@ -7,7 +7,7 @@ updated: 2022-08-27 12:00:00
 translate_title: speak
 subtitle: Speak
 aside: false
-description: CC的部落格 即刻短文页面
+description: C果粉圈 即刻短文页面
 ---
 <!-- CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@waline/client@v2/dist/waline.css"/>
@@ -72,7 +72,7 @@ description: CC的部落格 即刻短文页面
         el: '.ispeak-comment',
         path: path + '?q=' + speakId,
         pageTitle: title || contentSub,
-        site: 'CC的部落格 即刻短文',
+        site: 'C果粉圈 即刻短文',
         useBackendConf: true,
         serverURL: 'https://waline.ccknbc.cc',
         pageSize: 10,

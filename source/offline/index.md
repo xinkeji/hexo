@@ -7,10 +7,10 @@ date: 2022-06-15 22:24:35
 updated: 2023-07-20 22:24:35
 translate_title: offline
 subtitle: Ur Offline
-description: CC的部落格 离线页面
+description: C果粉圈 离线页面
 ---
 
-很抱歉，您暂时无法访问CC的部落格，因此跳转到离线页面
+很抱歉，您暂时无法访问C果粉圈，因此跳转到离线页面
 
 这有可能是CC的主站服务器全部炸裂，当然，也可能的是您网络丢失，或者至少您与CC的服务器之间失去了联系。
 

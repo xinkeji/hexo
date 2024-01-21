@@ -1,4 +1,4 @@
-// CC的部落格 补充 JS
+// C果粉圈 补充 JS
 
 // 分享按钮
 document.addEventListener("DOMContentLoaded", () => {

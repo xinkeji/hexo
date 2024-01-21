@@ -24,4 +24,4 @@ top:
   #   name: IP天气签
   #   icon: fa-solid fa-cloud-moon-rain
   #   order: 0
-  #   html: '<img data-fancybox data-caption="CC的部落格 IP天气签" src="https://api.vvhan.com/api/ipCard?tip=欢迎访问CC的部落格" width=100%>'
+  #   html: '<img data-fancybox data-caption="C果粉圈 IP天气签" src="https://api.vvhan.com/api/ipCard?tip=欢迎访问C果粉圈" width=100%>'

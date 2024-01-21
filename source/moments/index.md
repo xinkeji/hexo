@@ -7,7 +7,7 @@ date: 2022-05-20 22:26:51
 updated: 2023-02-16 19:38:00
 translate_title: moments
 subtitle: Moments
-description: CC的部落格 朋友圈页面
+description: C果粉圈 朋友圈页面
 ---
 
 <div id="hexo-circle-of-friends-root"></div>
