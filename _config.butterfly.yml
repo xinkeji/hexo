@@ -158,7 +158,7 @@ avatar:
   img: https://cdn.jsdelivr.net/gh/g0fcn/img/logo.webp
   effect: false
 
-disable_top_img: false
+disable_top_img: true
 
 # The banner image of home page
 index_img: false
