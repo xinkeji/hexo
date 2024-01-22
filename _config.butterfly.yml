@@ -341,8 +341,8 @@ comments:
 # Giscus
 # https://giscus.app/
 giscus:
-  repo: xinkeji/xinkeji.github.io
-  repo_id: R_kgDOLGzSmA
+  repo: #xinkeji/xinkeji.github.io
+  repo_id: #R_kgDOLGzSmA
   category_id: DIC_kwDOLGzSmM4CckWw
   theme:
     light: light
@@ -354,11 +354,10 @@ giscus:
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
 waline:
-  serverURL: # Waline server address url
-  bg: # waline background
+  serverURL: https://waline.g0f.cn # Waline server address url
+  bg: waline background
   pageview: false
-  option:
-
+  meta_css: true
   #imageUploader: true
   imageUploader: >
     function (file) {
@@ -433,7 +432,7 @@ discuss:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://twikoo.g0f.cn #twikoo
+  envId: https://twikoo.g0f.cn twikoo
   region:
   visitor: false
   option:
