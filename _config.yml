@@ -7,7 +7,7 @@ language: zh-CN
 timezone: Asia/Shanghai
 
 url: https://g0f.cn/
-permalink: :abbrlink.html
+permalink: post/:hash.html
 permalink_defaults:
 pretty_urls:
   trailing_index: false
