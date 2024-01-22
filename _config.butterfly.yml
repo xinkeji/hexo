@@ -358,7 +358,7 @@ waline:
   bg: # waline background
   pageview: false
   meta_css: true
-  # imageUploader: true
+  imageUploader: true
   imageUploader: >
     function (file) {
       let formData = new FormData();
