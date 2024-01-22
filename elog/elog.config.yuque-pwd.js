@@ -24,7 +24,7 @@ module.exports = {
     enable: ture,
     platform: 'local',
     local: {
-      outputDir: 'cdn/',
+      outputDir: 'cdn',
       prefixKey: '',
     },
 }
