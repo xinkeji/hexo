@@ -16,8 +16,7 @@ description:
   <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/g0fcn/img/logo.webp">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>HQ ICON</title>
-  <link rel="stylesheet"
-    href="https://cdn.jsdelivr.net/gh/xinkeji/hexo/cdn/icon/css.css>
+  <link rel="stylesheet" href="https://cdn-font.hyperos.mi.com/font/css?family=MiSans_VF:VF:Chinese_Simplify,Latin&display=swap>
   <script type="module" crossorigin src="https://cdn.jsdelivr.net/gh/xinkeji/hexo/cdn/icon/index-6LH_CzdR.js"></script>
   <link rel="stylesheet" crossorigin href="https://cdn.jsdelivr.net/gh/xinkeji/hexo/cdn/icon/index--C5vjW1z.css">
 </head>
