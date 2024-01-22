@@ -9,3 +9,21 @@ translate_title:
 subtitle:
 description:
 ---
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/g0fcn/img/logo.webp">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HQ ICON</title>
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/xinkeji/hexo/cdn/icon/csscss>
+  <script type="module" crossorigin src="https://cdn.jsdelivr.net/gh/xinkeji/hexo/cdn/icon/index-6LH_CzdR.js"></script>
+  <link rel="stylesheet" crossorigin href="https://cdn.jsdelivr.net/gh/xinkeji/hexo/cdn/icon/index--C5vjW1z.css">
+</head>
+
+<body>
+  <div id="root"></div>
+</body>
+
+</html>
