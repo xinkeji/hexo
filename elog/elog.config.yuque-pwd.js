@@ -21,15 +21,10 @@ module.exports = {
     }
   },
   image: {
-  enable: true,
-  platform: 'github',
-  github: {
-    user: process.env.LGH_USER,
-    token: process.env.LGH_TOKEN,
-    repo: process.env.LGH_REPO,
-    prefixKey: '',
-    host: 'cdn.jsdelivr.net'
-  
-    }
-  },
+    enable: false,
+    platform: 'local',
+    local: {
+      outputDir: 'cdn/',
+      prefixKey: '',
+    },
 }
