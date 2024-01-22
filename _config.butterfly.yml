@@ -273,7 +273,7 @@ reward:
     - img: https://cdn.jsdelivr.net/gh/g0fcn/img/logo/
       text: 微信
     - img: https://cdn.jsdelivr.net/gh/g0fcn/img/logo/
-      link: https://afdian.net/@ccknbc
+      link: https://afdian.net/
       text: 支付宝
 
 # Easily browse and edit blog source code online.
@@ -330,7 +330,7 @@ addtoany:
 # --------------------------------------
 
 comments:
-  use: Twikoo #,Waline #,Disqusjs 
+  use: Waline #Twikoo,#Disqusjs 
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
@@ -1154,7 +1154,7 @@ CDN:
     # instantsearch:
     # katex:
     # katex_copytex:
-      lazyload:
+    # lazyload:
     # local_search:
     # main:
     # main_css:
@@ -1166,15 +1166,15 @@ CDN:
     # prismjs_autoloader:
     # prismjs_js:
     # prismjs_lineNumber_js:
-      pjax:
+    # pjax:
     # sharejs:
     # sharejs_css:
     # snackbar:
     # snackbar_css:
     # translate:
-      twikoo:
+    # twikoo:
     # typed:
     # utils:
     # valine:
-    # waline_css:
-    # waline_js:
+      waline_css:
+      waline_js:
