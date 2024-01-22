@@ -17,7 +17,7 @@ description:
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>HQ ICON</title>
   <link rel="stylesheet"
-    href="https://cdn.jsdelivr.net/gh/xinkeji/hexo/cdn/icon/csscss>
+    href="https://cdn.jsdelivr.net/gh/xinkeji/hexo/cdn/icon/css.css>
   <script type="module" crossorigin src="https://cdn.jsdelivr.net/gh/xinkeji/hexo/cdn/icon/index-6LH_CzdR.js"></script>
   <link rel="stylesheet" crossorigin href="https://cdn.jsdelivr.net/gh/xinkeji/hexo/cdn/icon/index--C5vjW1z.css">
 </head>
