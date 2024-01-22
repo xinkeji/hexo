@@ -330,7 +330,7 @@ addtoany:
 # --------------------------------------
 
 comments:
-  use: Twikoo #Waline,#Disqusjs 
+  use: Waline #Twikoo,#Disqusjs 
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
@@ -354,8 +354,8 @@ giscus:
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
 waline:
-  serverURL: # https://waline.g0f.cn # Waline server address url
-  bg: # waline background
+  serverURL: https://waline.g0f.cn # Waline server address url
+  bg: waline background
   pageview: false
   meta_css: true
   #imageUploader: true
