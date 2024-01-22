@@ -57,25 +57,25 @@ social:
   fa-brands fa-bilibili: https://space.bilibili.com/|| BiliBili
   fa-brands fa-weibo: https://weibo.com/ || Weibo
   fa-brands fa-telegram: https://t.me/|| Telegram
-  # fa-brands fa-twitter: https://www.twitter.com/ccknbc || Twitter
-  # fa-solid fa-bell faa-ring animated: /sub/ || Sub
-  # fa-brands fa-line: https://line.me/ti/p/1vqM_WDef1 || LINE
-  # fa-brands fa-instagram: https://www.instagram.com/ccknbc || Instagram
-  # fa-brands fa-facebook: https://www.facebook.com/ccknbc || Facebook
-  # fa-brands fa-facebook-messenger: https://m.me/ccknbc || Messenger
-  # fa-brands fa-youtube: https://www.youtube.com/@ccknbc || YouTube
+  fa-brands fa-twitter: https://www.twitter.com/ || Twitter
+  fa-solid fa-bell faa-ring animated: /sub/ || Sub
+  fa-brands fa-line: https://line.me/ || LINE
+  fa-brands fa-instagram: https://www.instagram.com/ || Instagram
+  fa-brands fa-facebook: https://www.facebook.com/ || Facebook
+  fa-brands fa-facebook-messenger: https://m.me/ccknbc || Messenger
+  fa-brands fa-youtube: https://www.youtube.com/ || YouTube
 
 # search (搜索)
 # --------------------------------------
 
 # Algolia search
 algolia_search:
-  enable: true
+  enable: false
   searchAsYouType: false
 
 # Docsearch
 docsearch:
-  enable: false
+  enable: true
   appId: 97MUPN4D
   apiKey: a003a39f337f5186ec11f5f92bae62
   indexName: g0f
