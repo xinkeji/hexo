@@ -3,7 +3,7 @@
 # --------------------------------------
 
 menu:
-   首页: / || fa-solid fa-house-chimney
+  首页: / || fa-solid fa-house-chimney
   # 浏览: javascript:toRandomPost(); || fa-solid fa-shuffle
   文章 || fa-solid fa-book-reader:
     归档: /archives/ || fa-solid fa-box-archive
