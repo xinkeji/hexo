@@ -585,7 +585,7 @@ footer:
   live: #页脚运行时间
     enable: true
     prefix: "本站已运行"
-    suffix: "CCKNBC All Rights Reserved."
+    suffix: "果粉圈 All Rights Reserved."
     start: "2020-06-04T00:00:00"
 
 # Analysis
