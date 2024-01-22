@@ -21,7 +21,7 @@ module.exports = {
     }
   },
   image: {
-    enable: false,
+    enable: ture,
     platform: 'local',
     local: {
       outputDir: 'cdn/',
