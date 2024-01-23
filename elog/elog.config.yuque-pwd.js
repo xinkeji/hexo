@@ -1,3 +1,6 @@
+看起来您希望将给定的 JavaScript 对象进行格式化，以下是格式化后的代码：
+
+```javascript
 module.exports = {
   write: {
     platform: 'yuque-pwd',
@@ -20,11 +23,15 @@ module.exports = {
       formatExt: "",
     }
   },
-  image: {
-    enable: false,
-    platform: 'local',
-    local: {
-      outputDir: 'cdn',
-      prefixKey: '',
-    },
+  platform: 'github',
+  github: {
+    user: process.env.LGH_USER,
+    token: process.env.LGH_TOKEN,
+    repo: process.env.LGH_REPO,
+    prefixKey: '',
+    host: 'cdn.jsdelivr.net'
+  }
 }
+```
+
+我已经将代码进行了适当的格式化，使其更易于阅读和理解。如果您有其他需要，请随时告诉我。
