@@ -1,5 +1,5 @@
 {
-  "name": "g0f-blog",
+  "name": "ccknbc-blog",
   "version": "latest",
   "private": false,
   "scripts": {
@@ -7,7 +7,7 @@
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo server",
-    "elog": "npm run sync:yuque-pwd && npm run build && npm run deploy",
+    "elog": "npm run sync:yuque-pwd npm run build && npm run deploy",
     "github": "npm run build && npm run deploy",
     "elog:init": "npx elog init",
     "local:yuque-token": "npx elog sync -c ./elog/elog.config.yuque-token.js -e ./elog/.elog.env -a ./elog/elog.cache.yuque.json",
@@ -27,9 +27,9 @@
     "version": "7.0.0"
   },
   "dependencies": {
-    "@elog/cli": "^0.13.0",
-    "axios": "1.6.5",
-    "hexo": "7.0.0",
+    "@elog/cli": "0.13.0",
+    "axios": "1.6.7",
+    "hexo": "7.1.1",
     "hexo-butterfly-tag-plugins-plus": "1.0.17",
     "hexo-filter-nofollow": "2.0.2",
     "hexo-generator-archive": "2.0.0",
@@ -42,9 +42,10 @@
     "hexo-helper-qrcode": "1.0.2",
     "hexo-renderer-markdown-it": "7.1.1",
     "hexo-renderer-pug": "3.0.0",
-    "hexo-renderer-stylus": "3.0.0",
+    "hexo-renderer-stylus": "3.0.1",
     "hexo-server": "3.0.0",
     "hexo-tag-mmedia": "1.2.1",
+    "hexo-theme-anzhiyu": "github:anzhiyu-c/hexo-theme-anzhiyu#dev",
     "hexo-wordcount": "6.0.1",
     "hexo-yam": "8.0.0",
     "markdown-it-task-lists": "2.1.1",
