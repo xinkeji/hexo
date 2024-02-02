@@ -24,8 +24,8 @@ module.exports = {
     enable: true,
     platform: 'local',
     local: {
-      outputDir: './source/images',
-      prefixKey: '/images'
+      outputDir: './source/images/yuque',
+      prefixKey: '/images/yuque'
     }
   },
 }
