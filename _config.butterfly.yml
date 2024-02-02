@@ -19,9 +19,7 @@ menu:
     本站: /about/ || fa-solid fa-list-check
     隐私: /privacy-policy/ || fa-solid fa-user-secret
     状态: https://cc.instatus.com || fa-solid fa-server
-    # 遗嘱: /will/ || fa-solid fa-solid fa-file-pen
-    # 自己: /me/ || far fa-user
-    # 证书: https://ssl.ccknbc.cc || fa-brands fa-expeditedssl
+    
 nav:
   logo: # image
   display_title: true # true or false
