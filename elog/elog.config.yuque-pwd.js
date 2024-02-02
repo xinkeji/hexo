@@ -20,17 +20,12 @@ module.exports = {
       formatExt: "",
     }
   },
-  image: {
-  enable: true,
-  platform: 'github',
-  github: {
-    user: process.env.LGH_USER,
-    token: process.env.LGH_TOKEN,
-    repo: process.env.LGH_REPO,
-    outputDir: './cdn',
-    prefixKey: './cdn',
-    host: 'cdn.jsdelivr.net'
-  
+    image: {
+    enable: true,
+    platform: 'local',
+    local: {
+      outputDir: './source/images',
+      prefixKey: '/images'
     }
   },
 }
