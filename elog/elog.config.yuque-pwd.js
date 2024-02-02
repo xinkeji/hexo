@@ -26,6 +26,7 @@ module.exports = {
     local: {
       outputDir: './source/images/yuque',
       prefixKey: '/images/yuque'
+      host: 'cdn.jsdelivr.net/gh/xinkeji/xinkeji.github.io'
     }
   },
 }
