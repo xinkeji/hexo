@@ -8,7 +8,7 @@
 [remote "origin"]
 	url = git@github.com:xinkeji/hexo.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
-	url = git@gitlab.com:xinkeji/xinkeji.gitlab.io.git
+	url = git@gitlab.com:xinkeji/blog.git
 	url = git@jihulab.com:xinkeji/hexo.git
 	url = git@bitbucket.org:xinkeji/hexo.git
 	url = git@e.coding.net:xinkeji/hexo.git
