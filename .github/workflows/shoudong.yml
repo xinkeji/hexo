@@ -1,0 +1,30 @@
+name: Add Git Submodule
+on:
+  workflow_dispatch:
+
+jobs:
+  add-submodule:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the repo
+        uses: actions/checkout@v2
+        with:
+          # 以递归方式检出子模块
+          submodules: recursive
+
+      - name: Configure Git
+        run: |
+          git config --global user.email "840263997@qq.com"
+          git config --global user.name "xinkeji"
+
+      - name: Add Submodule
+        run: |
+          git submodule add https://github.com/xaoxuu/hexo-theme-stellar.git themes/stellar
+          git commit -m "Add hexo-theme-stellar submodule"
+          git push
+
+      - name: Update Submodules
+        run: |
+          git submodule update --init --recursive
+          git commit -am "Update submodules"
+          git push
