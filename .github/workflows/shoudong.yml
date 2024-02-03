@@ -20,8 +20,7 @@ jobs:
 
       - name: 添加 Stellar 主题作为子模块
         run: |
-          git submodule add https://github.com/xinkeji/hexo-theme-stellar.git themes/stellar || true
-          git submodule update --remote --merge
+          git submodule add https://github.com/xaoxuu/hexo-theme-stellar.git themes/stellar
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
