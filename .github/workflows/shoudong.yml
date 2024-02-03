@@ -1,33 +1,36 @@
-name: Add Git Submodule
+name: 更新 Hexo 主题 Stellar
+
 on:
-  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *' # 每天凌晨自动执行
+  workflow_dispatch: # 允许手动触发
 
 jobs:
-  add-submodule:
+  update-theme:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout the repo
+      - name: 检出代码
         uses: actions/checkout@v2
         with:
-          # 以递归方式检出子模块
-          submodules: recursive
+          fetch-depth: 0 # 获取所有历史记录
+      
+      - name: 检出子模块
+        run: git submodule update --init --recursive
 
-      - name: Configure Git
+      - name: 添加 Stellar 主题作为子模块
         run: |
-          git config --global user.email "840263997@qq.com"
-          git config --global user.name "xinkeji"
+          git submodule add https://github.com/xinkeji/hexo-theme-stellar.git themes/stellar || true
+          git submodule update --remote --merge
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Add Submodule
+      - name: 提交更改
         run: |
-          git submodule add https://github.com/xaoxuu/hexo-theme-stellar.git themes/stellar
-          git commit -m "Add hexo-theme-stellar submodule"
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "自动更新 Stellar 主题" || echo "没有变化，不需要提交"
           git push
-
-      - name: Update Submodules
-        run: |
-          git submodule update --init --recursive
-          git commit -am "Update submodules"
-          git push
-
-      env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # 确保环境变量中有 GITHUB_TOKEN
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
