@@ -112,7 +112,7 @@ jobs:
           git branch -m master
           git commit -m "${{ github.event.head_commit.message }} $(date +"%Z %Y-%m-%d %A %H:%M:%S") Updated By GitHub Actions"
           git push --force --quiet "https://xinkeji:${{ secrets.GH_TOKEN }}@github.com/xinkeji/hblog.git" master:master
-          #git push --force --quiet "https://xinkeji:${{ secrets.BB_TOKEN }}@bitbucket.org/g0fcn/hexo.git" master:master
+          git push --force --quiet "https://g0fcn:${{ secrets.BB_TOKEN }}@bitbucket.org/g0fcn/hexo.git" master:master
           # git push --force --quiet "https://${{ secrets.CD_USER }}:${{ secrets.CD_TOKEN }}@e.coding.net/ccknbc/blog/butterfly.git" master:master
           # git push --force --quiet "https://ccknbc:${{ secrets.GT_TOKEN }}@gitee.com/ccknbc/ccknbc.git" master:master
 
@@ -125,7 +125,7 @@ jobs:
 
       - name: Update GitLab Pages
         run: |
-          curl -X POST --fail -F token=${{ secrets.GITLAB_TRIGGER_TOKEN }} -F ref=master https://gitlab.com/api/v4/projects/54534581/trigger/pipeline
+          curl -X POST --fail -F token=${{ secrets.GITLAB_TRIGGER_TOKEN }} -F ref=master https://gitlab.com/api/v4/projects/54536592/trigger/pipeline
 
       - name: Delete Workflow Runs
         uses: Mattraks/delete-workflow-runs@main
