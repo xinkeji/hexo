@@ -28,3 +28,6 @@ jobs:
           git submodule update --init --recursive
           git commit -am "Update submodules"
           git push
+
+      env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # 确保环境变量中有 GITHUB_TOKEN
