@@ -125,7 +125,7 @@ jobs:
 
       - name: Update GitLab Pages
         run: |
-          curl -X POST --fail -F token=${{ secrets.GITLAB_TRIGGER_TOKEN }} -F ref=master https://gitlab.com/api/v4/projects/54521260/trigger/pipeline
+          curl -X POST --fail -F token=${{ secrets.GITLAB_TRIGGER_TOKEN }} -F ref=master https://gitlab.com/api/v4/projects/54534581/trigger/pipeline
 
       - name: Delete Workflow Runs
         uses: Mattraks/delete-workflow-runs@main
