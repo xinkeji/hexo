@@ -112,7 +112,7 @@ jobs:
           git branch -m master
           git commit -m "${{ github.event.head_commit.message }} $(date +"%Z %Y-%m-%d %A %H:%M:%S") Updated By GitHub Actions"
           git push --force --quiet "https://xinkeji:${{ secrets.GH_TOKEN }}@github.com/xinkeji/hblog.git" master:master
-          git push --force --quiet "https://xinkeji:${{ secrets.BB_TOKEN }}@bitbucket.org/g0fcn/hexo.git" master:master
+          git push --force --quiet "https://g0fcn:${{ secrets.BB_TOKEN }}@bitbucket.org/g0fcn/hexo.git" master:master
           # git push --force --quiet "https://${{ secrets.CD_USER }}:${{ secrets.CD_TOKEN }}@e.coding.net/ccknbc/blog/butterfly.git" master:master
           # git push --force --quiet "https://ccknbc:${{ secrets.GT_TOKEN }}@gitee.com/ccknbc/ccknbc.git" master:master
 
