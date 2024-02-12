@@ -25,7 +25,7 @@ module.exports = {
     platform: 'local',
     local: {
       outputDir: './source/images/yuque',
-      prefixKey: 'https://jsd.cdn.zzko.cn/gh/xinkeji/hblog/images/yuque'
+      prefixKey: 'https://fastly.jsdelivr.net/gh/xinkeji/hblog/images/yuque'
     }
   },
 }
