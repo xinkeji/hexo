@@ -43,7 +43,7 @@ jobs:
 
       - name: Generate
         run: |
-          git clone -b posts git@github.com:xinkeji/hexo.git source/_posts
+          git clone -b posts git@github.com:xinkeji/bblog.git source/_posts
           npm run github
 
       - name: Deploy Hexo Public To Pages
